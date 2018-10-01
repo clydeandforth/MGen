@@ -1,0 +1,2 @@
+Interproscan v5.31-70.0
+interproscan.sh -i all_sane_files.faa -d results_sane  -dp -t p --goterms -appl Pfam-31.0  -f TSV
