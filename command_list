@@ -1,2 +1,27 @@
-Interproscan v5.31-70.0
+#Interproscan v5.31-70.0
 interproscan.sh -i all_sane_files.faa -d results_sane  -dp -t p --goterms -appl Pfam-31.0  -f TSV
+
+#convert interproscan output for kinfin
+./scripts/iprs2table.py -i all_sane_files.faa.tsv -o all_proteins.tsv  --domain_sources Pfam
+
+#Orthofinder
+orthofinder.py -f sane_files/ -t 40
+
+#Kinfin
+kinfin -g Orthogroups.txt -c config_VFDB.txt -s WorkingDirectory/SequenceIDs.txt -p WorkingDirectory/SpeciesIDs.txt -f all_proteins.tsv
+
+# Kinfin functional annotion command
+functional_annotation_of_clusters.py all -f kinfin_results/cluster_domain_annotation.GO.txt -c kinfin_results/cluster_counts_by_taxon.txt  -o outfile
+
+####################
+
+#!/bin/sh
+
+for i in {1..100}
+do
+  	head -1 JD_kinfin_Oct_revised.kinfin_results/TAXON/TAXON.cluster_summary.txt > "output${i}.txt"
+        sort -R JD_kinfin_Oct_revised.kinfin_results/TAXON/TAXON.cluster_summary.txt | head -1000  >> "output${i}.txt"
+        mv "output${i}.txt" Subsampled_orthologues
+done
+
+

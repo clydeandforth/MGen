@@ -1,0 +1,213 @@
+# James Doonan
+########################
+# subsample orthologs:
+
+#!/bin/sh
+
+for i in {1..100}
+do
+  	head -1 JD_kinfin_Oct_revised.kinfin_results/TAXON/TAXON.cluster_summary.txt > "output${i}.txt"
+# sort -R will randomly sort the text file 
+        sort -R JD_kinfin_Oct_revised.kinfin_results/TAXON/TAXON.cluster_summary.txt | head -312  >> "output${i}.txt"
+        mv "output${i}.txt" Subsampled_orthologues
+done
+########################
+
+#!/bin/bash
+# use blastp to align study organisms to the VFDB
+
+module load DIAMOND/0.9.22
+
+### loop 1
+
+FILES=VFDB/sane_files/*
+mkdir -p VFDB/sane_files/diamond_results
+for f in $FILES
+
+do
+  	diamond blastp -d VFDB_db -q "VFDB/sane_files/$(basename $f)"  -o "VFDB/sane_files/$(basename $f).txt" --query-cover 97  --outfmt 6 qseqid sseqid pident length$
+
+done
+mv VFDB/sane_files/*.txt VFDB/sane_files/diamond_results
+
+FILES=/scratch/b.bss81c/VFDB/sane_files/diamond_results/*
+for f in $FILES
+
+do
+  	awk -v x=50 '$3 >= x'  "/scratch/b.bss81c/VFDB/sane_files/diamond_results/$(basename $f)" | awk '{print $1}' > "/scratch/b.bss81c/VFDB/sane_files/diamond_results/$(basename $f).cutoffs.txt"
+        mkdir -p /scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/
+
+        mv "/scratch/b.bss81c/VFDB/sane_files/diamond_results/$(basename $f).cutoffs.txt"  /scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/
+done
+### loop 3
+
+FILES=/scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/*
+#mkdir -p /scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/VFDB_fasta
+
+for f in $FILES
+do
+  	awk 'END{print NR}' "/scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/$(basename $f)" >> file1.txt
+        mkdir -p /scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/VFDB_fasta
+        /home/b.bss81c/faSomeRecords /scratch/b.bss81c/VFDB/combined_fasta.faa "/scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/$(basename $f)"  "/scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/$(basename $f)_VFDB.fa"
+       mv "/scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/$(basename $f)_VFDB.fa" /scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/VFDB_fasta
+done
+
+
+### loop 4
+
+FILES=/scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/VFDB_fasta/*
+
+for f in $FILES
+
+do
+awk '/>/ {count++} END{print count}'  "/scratch/b.bss81c/VFDB/sane_files/diamond_results/cutoffs/VFDB_fasta/$(basename $f)" >> file2.txt
+done
+
+### loop 5
+# check fasta and identifers match
+
+if diff file1.txt file2.txt > /dev/null
+then
+    echo "No difference"
+else
+    echo "Difference"
+fi
+
+
+########################
+# generate networks from all subsampled ortholog clusters
+
+#!/bin/sh
+
+for i in {1..100}
+do
+  	~/kinfin/scripts/generate_network.py -c ~/config_VFDB.txt  -m "output${i}.txt" -o "subsample_network${i}"
+}
+########################
+
+
+
+
+
+
+# switch to R
+library(igraph)
+library(RColorBrewer)
+library(ggplot2)
+
+# read all graph files into a list
+
+dataFiles <- lapply(Sys.glob("*.graphml"), read.graph, format = "graphml")
+
+new_file<-list()
+new_file2<-list()
+
+# Remove the weakest (least related) edges
+for(i in 1:100){
+  new_file[[i]]<-delete_edges(dataFiles[[i]], which(E(dataFiles[[i]])$weight <=100))
+}
+
+# Assess each node by degree for each node within each subsample
+
+for(i in 1:100){
+  new_file2[[i]]<-degree(new_file[[i]])
+}
+
+# Add bacteria names as row names and change list to data frame
+file_row_names<-V(new_file[[1]])$id
+new_file3<-as.data.frame(new_file2[1:100])
+rownames(new_file3)<-file_row_names
+
+# write csv to add row names as column and delete strange column headings (must be a better way to do this!)
+write.csv(new_file3, "subsampled_degrees.csv")
+new_file4<-read.csv("subsampled_degrees.csv", header = F)
+
+# calculate mean degree and 95% confidence intervals for each subsampled node
+
+new_file4[[ ,2:101]]<-as.numeric(new_file4[[ ,2:101]])
+
+
+library(reshape2)
+
+bound_degees.long<-melt(bound_degees2, id.vars=c("V1"))
+
+bound_degees.long$value<-as.character(bound_degees.long$value)
+bound_degees.long$value<-as.numeric(bound_degees.long$value)
+
+library(Publish) 
+library(DescTools)
+
+
+confidence<-ci.mean(value ~ V1 ,data=bound_degees.long)
+
+confidence_df<-as.data.frame(confidence)
+
+# Plot mean degrees with 95% confidence for each node
+(JD_plot<-ggplot(confidence_df, aes(x=V1, y=mean, col=V1)) +
+    geom_point(size=5, alpha = .75) +
+    geom_errorbar(width=.1, aes(ymin=lower, ymax=upper))+
+    scale_colour_manual(name = "Degree Names", values = c("gray50", "tomato", "gold", "firebrick", "tomato", "gray50", "tomato", "tomato", "pink", "cornflowerblue", "tomato", "tomato", "darkseagreen1", "darkseagreen1", "darkseagreen1", "gray50", "darkseagreen1", "khaki2", "khaki2", "coral1", "burlywood1", "tomato", "darkorchid1", "tomato", "darkturquoise", "darksalmon", "coral1", "coral1", "darksalmon"))+
+    ylab("Mean weighted degree (95% confidence interval)") +
+    xlab("Node") +
+    theme(legend.title = element_text(size = 10),
+          legend.position = "none",
+          axis.title=element_text(size=14,face="bold"),
+          axis.ticks = element_blank(),
+          panel.background=element_rect(fill="NA", colour="black", size = 0.1),
+          axis.text.y = element_text(angle = 0, hjust = 1, size = 9, face = "bold"),
+          axis.text.x = element_text(angle = 90, hjust = 1, size = 12)))
+
+
+
+########################
+# Plot Presence/Absence of phytopathogenic virulence genes
+
+data<-read.csv("Yes_no_data.csv")
+
+data$Present<-as.factor(data$Present)
+
+(p1.1<-ggplot(data, aes(x=Gene, y=Bacteria,col = Present )) +  
+   geom_point(shape = 15, size=6)+
+  
+   xlab("")+
+   ylab("Genome")+
+   scale_colour_manual(values=c("Black", "Gold", "Grey"), 
+                       name="Present vs. Absent",
+                       breaks=c("0", "1", "2"),
+                       labels=c("Present", "Absent", "Partial"))+
+   scale_x_discrete(labels=c("Pectate disaccharide-lyase" = "Pectate\nndisaccharide-lyase", "Rhanmogalacturonan endolyase" = "Rhanmogalacturonan\nendolyase", "beta-xylosidase" = "\u03B2-xylosidase", "alpha-galactosidase" = "\u03B1-galactosidase", "beta-xylanase" = "\u03B2-xylanase", "beta-galactosidase" = "\u03B2-galactosidase", "beta-glucosidase" = "\u03B2-glucosidase", "alpha-L-arabinosidase" = "\u03B1-L-arabinosidase", "alpha-glucuronidase" = "\u03B1-glucuronidase"))+
+    #scale_y_discrete(labels=mylabels)+
+   theme_bw() +   # remove grey background
+   theme(legend.position="top")+
+   theme(legend.title = element_blank())+
+   theme(legend.text = element_text(size = 10))+
+   theme(legend.key = element_rect(fill = "White"))+
+   theme(legend.background = element_rect(fill = "Grey96", size = 0.5, linetype = "solid"))+
+   theme(panel.grid.minor = element_blank())+   # remove minor lines on plot
+   theme(panel.grid.major = element_blank())+   # remove major lines on plot
+   theme(axis.text.x = element_text(colour="grey20",size=6,angle=90,hjust=.5,vjust=.5,face="plain"),  #horizontal axis text, grey, size 16, no angle etc.
+         axis.text.y = element_text(colour="grey20",size=6,angle=0,hjust=1,vjust=0,face="bold"),     #vertical axis text, grey, size 16, no angle etc.
+         axis.title.x = element_text(colour="grey20",size=12,angle=0,hjust=.5,vjust=0,face="plain"),   #horizontal axis label, grey, size 20, no angle etc.
+         axis.title.y = element_text(colour="grey20",size=12,angle=90,hjust=.5,vjust=.5,face="plain")))  #vertical axis label, grey, size 20, no angle etc.
+
+########################
+
+# Test for signficant association between study organisms based on presence/absence of phytopathogenic genes 
+
+binomial<-read.csv("Yes_no_data.csv")
+binomial$Present[binomial$Present==2]<-0
+binomial$Present<-as.integer(binomial$Present)
+
+# select bacteria
+PC<-binomial[binomial$Bacteria %like%"carotovorum", ]
+
+Bg<-binomial[binomial$Bacteria %like%"goodwinii", ]
+
+PC$genus<-"carotovorum"
+Bg$genus<-"goodwinii"
+
+Bg_PC<-rbind(PC, Bg)
+xchisq_Bg_PC<-chisq.test(Bg_PC$Bacteria, Bg_PC$Present, correct=FALSE)
+
+########################
+
