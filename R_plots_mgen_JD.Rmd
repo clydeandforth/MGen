@@ -1,0 +1,307 @@
+---
+title: "MGen R code"
+author: "JAMES D"
+date: "07/11/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r libraries}
+
+library(igraph)
+library(RColorBrewer)
+library(ggplot2)
+library(reshape2)
+library(gplots)
+library(Publish)
+library(DescTools)
+library(sna)
+library(dendextend)
+library(GGally)
+library(data.table)
+
+```
+```{r Prepare subsampled graphs for plotting}
+
+dataFiles <- lapply(Sys.glob("*.graphml"), read.graph, format = "graphml")
+
+new_file<-list()
+new_file2<-list()
+
+for(i in 1:100){
+  new_file[[i]]<-delete_edges(dataFiles[[i]], which(E(dataFiles[[i]])$weight <=30))
+}
+
+#NB need to call igraph::degree explicity as sna also has the degree function
+for(i in 1:100){
+  new_file2[[i]]<-igraph::degree(new_file[[i]])
+}
+
+new_file3<-as.data.frame(new_file2)
+
+file_row_names<-V(new_file[[2]])$id
+new_file4<-cbind(file_row_names, new_file3)
+
+colnames(new_file4) <- c(1:101)
+colnames(new_file4)[1]<-"nodes"
+```
+
+```{r Calculate mean and CIs}
+
+bound_degees.long<-melt(new_file4, id.vars=c("nodes"))
+
+bound_degees.long$value<-as.character(bound_degees.long$value)
+bound_degees.long$value<-as.numeric(bound_degees.long$value)
+
+plotmeans(value ~ nodes, data = bound_degees.long)
+
+confidence<-ci.mean(value ~ nodes ,data=bound_degees.long)
+
+confidence_df<-as.data.frame(confidence)
+```
+```{r prepare virulence ortholog nodes for plotting}
+
+vF_graph <-  read.graph("VFDB_Oct_network.graph.graphml", format = "graphml")
+
+VF_file<-delete_edges(vF_graph, which(E(vF_graph)$weight <=30))
+
+VF_file2<-igraph::degree(VF_file)
+
+VF_file3<-as.data.frame(VF_file2)
+file_row_names<-V(VF_file)$id
+VF_file4<-cbind(file_row_names, VF_file3)
+colnames(VF_file4)[1]<-"nodes"
+colnames(VF_file4)[2]<-"mean"
+```
+
+```{r plot nodes and CIs}
+
+(JD_plot<-ggplot(confidence_df, aes(x=nodes, y=mean, col=nodes)) +
+    geom_point(size=8, alpha = .75) +
+    geom_errorbar(width=.1, aes(ymin=lower, ymax=upper))+
+    scale_colour_manual(name = "Degree Names", values = c("green", "tomato", "gold", "firebrick", "tomato", "green", "tomato", "tomato", "pink", "cornflowerblue", "tomato", "tomato", "darkseagreen1", "darkseagreen1", "darkseagreen1", "green", "darkseagreen1", "khaki2", "khaki2", "coral1", "burlywood1", "tomato", "darkorchid1", "tomato", "darkturquoise", "darksalmon", "coral1", "coral1", "darksalmon"))+
+    geom_point(data= VF_file4, shape = 25, col='blue', size = 4)+
+    scale_x_discrete(labels=c("GQ13" = "Gq FRB97", "BA" = "B.alni","BL" = "B.licehniformis", "HS" = "H.seropedicae","DD" = "D.dadantii","GQ18" = "Gq FRB124", "BS" = "B.salicis","Lqb" = "L.britannica","PS" = "P.syringae", "RS" = "R.solanacearum","BGo" = "Bg OBR1","PC" = "P.carotovorum", "XC" = "X.campestris","XO" = "X.oryzae","XF" = "X.fastidiosa", "GQ24" = "Gq N78","XA" = "X.axonopodis","EA" = "E.amylovora", "EB" = "E.billingiae","AT" = "A.tumefaciens","AZ" = "A.brasilense", "BG59" = "Bg FRB141","MM" = "M.mesophilicum","BG2" = "Bg FRB171", "Gd" = "G.diazotrophicus","RVAR" = "R.variigena","RLT" = "R.trifolii", "RLV" = "R.viciae","RVIC" = "R.victoriana"))+                  
+    ylab("Mean weighted degree (95% confidence interval)") +
+    xlab("Node") +
+    theme(legend.title = element_text(size = 10),
+          legend.position = "none",
+          axis.title=element_text(size=14,face="bold"),
+          axis.ticks = element_blank(),
+          panel.background=element_rect(fill="NA", colour="black", size = 0.1),
+          axis.text.y = element_text(angle = 0, hjust = 1, size = 9, face = "bold"),
+          axis.text.x = element_text(angle = 90, hjust = 1, size = 12, face = "italic")))
+
+```
+
+```{r igraph and Publish}
+complete_network <- read.graph ("complete_network_Oct.graph.graphml", format = "graphml")
+
+new_file<-delete_edges(complete_network, which(E(complete_network)$weight <=1500))
+
+new_file2<-igraph::degree(new_file)
+
+new_file3<-as.data.frame(new_file2)
+
+file_row_names<-V(new_file)$id
+new_file4<-cbind(file_row_names, new_file3)
+
+colnames(new_file4)[1]<-"nodes"
+colnames(new_file4)[2]<-"value"
+
+names(new_file4)
+str(new_file4)
+
+plotmeans(value ~ nodes, data = new_file4)
+
+confidence<-ci.mean(value ~ nodes ,data=new_file4)
+confidence_df<-as.data.frame(confidence)
+
+JD.adjacency_less_weight<-as_adjacency_matrix(new_file)
+```
+```{r plot complete graph}
+colrs2<-c("green", "tomato", "gold", "firebrick", "tomato", "green", "tomato", "tomato", "pink", "cornflowerblue", "tomato", "tomato", "darkseagreen1", "darkseagreen1", "darkseagreen1", "green", "darkseagreen1", "khaki2", "khaki2", "coral1", "burlywood1", "tomato", "darkorchid1", "tomato", "darkturquoise", "darksalmon", "coral1", "coral1", "darksalmon")
+(plot1<-ggnet2(network(JD.adjacency_less_weight, directed = TRUE), 
+               alpha=0.75, label=F, label.size =4,node.color = colrs2, mode="kamadakawai",
+               arrow.gap = 0.05, arrow.size = 4, size = 11, node.size = 22, edge.size = 2, layout.par = list(cell.jitter = 1))+
+    geom_point(aes(color = color), size = 0, color = "white")+
+    geom_text(aes(label = c("1" = "Gq FRB97", "2" = "B.alni","3" = "B.licehniformis", "4" = "H.seropedicae","5" = "D.dadantii","6" = "Gq FRB124", "7" = "B.salicis","8" = "L.britannica","9" = "P.syringae", "10" = "R.solanacearum","11" = "Bg OBR1","12" = "P.carotovorum", "13" = "X.campestris","14" = "X.oryzae","15" = "X.fastidiosa", "16" = "Gq N78","17" = "X.axonopodis","18" = "E.amylovora", "19" = "E.billingiae","20" = "A.tumefaciens","21" = "A.brasilense", "22" = "Bg FRB141","23" = "M.mesophilicum","24" = "Bg FRB171", "25" = "G.diazotrophicus","26" = "R.variigena","27" = "R.trifolii", "28" = "R.viciae","29" = "R.victoriana")), color="white", size = 2, fontface="bold")+ guides(color = F))
+
+```
+```{r plot adjacency matrix}
+edge_df<-as_data_frame(complete_network, what = "edges")
+
+edge_df$from<-as.factor(edge_df$from)
+edge_df$to<-as.factor(edge_df$to)
+
+
+(p2<-ggplot(edge_df, aes(x=from, y=to, col=weight)) +
+    geom_point(shape = 15, size=5)+
+    xlab("")+
+    ylab("")+
+    scale_colour_gradient(low="grey", high="grey1" )+
+    scale_x_discrete(labels=c("1" = "Gq FRB97", "2" = "B.alni","3" = "B.licehniformis", "4" = "H.seropedicae","5" = "D.dadantii","6" = "Gq FRB124", "7" = "B.salicis","8" = "L.britannica","9" = "P.syringae", "10" = "R.solanacearum","11" = "Bg OBR1","12" = "P.carotovorum", "13" = "X.campestris","14" = "X.oryzae","15" = "X.fastidiosa", "16" = "Gq N78","17" = "X.axonopodis","18" = "E.amylovora", "19" = "E.billingiae","20" = "A.tumefaciens","21" = "A.brasilense", "22" = "Bg FRB141","23" = "M.mesophilicum","24" = "Bg FRB171", "25" = "G.diazotrophicus","26" = "R.variigena","27" = "R.trifolii", "28" = "R.viciae","29" = "R.victoriana"))+                  
+    scale_y_discrete(labels=c("1" = "Gq FRB97", "2" = "B.alni","3" = "B.licehniformis", "4" = "H.seropedicae","5" = "D.dadantii","6" = "Gq FRB124", "7" = "B.salicis","8" = "L.britannica","9" = "P.syringae", "10" = "R.solanacearum","11" = "Bg OBR1","12" = "P.carotovorum", "13" = "X.campestris","14" = "X.oryzae","15" = "X.fastidiosa", "16" = "Gq N78","17" = "X.axonopodis","18" = "E.amylovora", "19" = "E.billingiae","20" = "A.tumefaciens","21" = "A.brasilense", "22" = "Bg FRB141","23" = "M.mesophilicum","24" = "Bg FRB171", "25" = "G.diazotrophicus","26" = "R.variigena","27" = "R.trifolii", "28" = "R.viciae","29" = "R.victoriana"))+                  
+    #ylim(0,4.5e+06)+
+    theme_bw() +   # remove grey background
+    #theme(legend.position="none")+
+    theme(panel.grid.minor = element_blank())+   # remove minor lines on plot
+    theme(panel.grid.major = element_blank())+   # remove major lines on plot
+    theme(axis.text.x = element_text(colour="grey20",size=10,angle=90,hjust=.5,vjust=.5,face="plain"),  #horizontal axis text, grey, size 16, no angle etc.
+          axis.text.y = element_text(colour="grey20",size=10,angle=0,hjust=1,vjust=0,face="plain"),     #vertical axis text, grey, size 16, no angle etc.
+          axis.title.x = element_text(colour="grey20",size=12,angle=0,hjust=.5,vjust=0,face="plain"),   #horizontal axis label, grey, size 20, no angle etc.
+          #axis.ticks = element_blank(),
+          axis.title.y = element_text(colour="grey20",size=12,angle=90,hjust=.5,vjust=.5,face="plain")))  #vertical axis label, grey, size 20, no angle etc.
+
+```
+
+```{r plot virulence ortholog graph and adjacency matrix}
+
+JD.adjacency_less_weight<-as_adjacency_matrix(VF_file)
+colrs2<-c("green", "tomato", "gold", "firebrick", "tomato", "green", "tomato", "tomato", "pink", "cornflowerblue", "tomato", "tomato", "darkseagreen1", "darkseagreen1", "darkseagreen1", "green", "darkseagreen1", "khaki2", "khaki2", "coral1", "burlywood1", "tomato", "darkorchid1", "tomato", "darkturquoise", "darksalmon", "coral1", "coral1", "darksalmon")
+#fruchtermanreingold
+(plot1<-ggnet2(network(JD.adjacency_less_weight, directed = TRUE), 
+               alpha=0.75, label=F, label.size =4,node.color = colrs2, mode="kamadakawai",
+               arrow.gap = 0.05, arrow.size = 4, size = 11, node.size = 24, edge.size = 2, layout.par = list(cell.jitter = 1))+
+               geom_point(aes(color = color), size = 0, color = "white")+
+               geom_text(aes(label = c("1" = "Gq FRB97", "2" = "B.alni","3" = "B.licehniformis", "4" = "H.seropedicae","5" = "D.dadantii","6" = "Gq FRB124", "7" = "B.salicis","8" = "L.britannica","9" = "P.syringae", "10" = "R.solanacearum","11" = "Bg OBR1","12" = "P.carotovorum", "13" = "X.campestris","14" = "X.oryzae","15" = "X.fastidiosa", "16" = "Gq N78","17" = "X.axonopodis","18" = "E.amylovora", "19" = "E.billingiae","20" = "A.tumefaciens","21" = "A.brasilense", "22" = "Bg FRB141","23" = "M.mesophilicum","24" = "Bg FRB171", "25" = "G.diazotrophicus","26" = "R.variigena","27" = "R.trifolii", "28" = "R.viciae","29" = "R.victoriana")), color="white", size = 2, fontface="bold")+ guides(color = F))
+```
+
+```{r plot virulence ortholog adjacency matrix}
+
+edge_df<-igraph::as_data_frame(vF_graph, what = "edges")
+
+edge_df$from<-as.factor(edge_df$from)
+edge_df$to<-as.factor(edge_df$to)
+
+(p2<-ggplot(edge_df, aes(x=from, y=to, col=weight)) +
+    geom_point(shape = 15, size=5)+
+    xlab("")+
+    ylab("")+
+    scale_colour_gradient(low="grey", high="grey1" )+
+    scale_x_discrete(labels=c("1" = "Gq FRB97", "2" = "B.alni","3" = "B.licehniformis", "4" = "H.seropedicae","5" = "D.dadantii","6" = "Gq FRB124", "7" = "B.salicis","8" = "L.britannica","9" = "P.syringae", "10" = "R.solanacearum","11" = "Bg OBR1","12" = "P.carotovorum", "13" = "X.campestris","14" = "X.oryzae","15" = "X.fastidiosa", "16" = "Gq N78","17" = "X.axonopodis","18" = "E.amylovora", "19" = "E.billingiae","20" = "A.tumefaciens","21" = "A.brasilense", "22" = "Bg FRB141","23" = "M.mesophilicum","24" = "Bg FRB171", "25" = "G.diazotrophicus","26" = "R.variigena","27" = "R.trifolii", "28" = "R.viciae","29" = "R.victoriana"))+                  
+    scale_y_discrete(labels=c("1" = "Gq FRB97", "2" = "B.alni","3" = "B.licehniformis", "4" = "H.seropedicae","5" = "D.dadantii","6" = "Gq FRB124", "7" = "B.salicis","8" = "L.britannica","9" = "P.syringae", "10" = "R.solanacearum","11" = "Bg OBR1","12" = "P.carotovorum", "13" = "X.campestris","14" = "X.oryzae","15" = "X.fastidiosa", "16" = "Gq N78","17" = "X.axonopodis","18" = "E.amylovora", "19" = "E.billingiae","20" = "A.tumefaciens","21" = "A.brasilense", "22" = "Bg FRB141","23" = "M.mesophilicum","24" = "Bg FRB171", "25" = "G.diazotrophicus","26" = "R.variigena","27" = "R.trifolii", "28" = "R.viciae","29" = "R.victoriana"))+                  
+    theme_bw() +  
+    theme(panel.grid.minor = element_blank())+   
+    theme(panel.grid.major = element_blank())+   
+    theme(axis.text.x = element_text(colour="grey20",size=10,angle=90,hjust=.5,vjust=.5,face="plain"),  
+          axis.text.y = element_text(colour="grey20",size=10,angle=0,hjust=1,vjust=0,face="plain"),     
+          axis.title.x = element_text(colour="grey20",size=12,angle=0,hjust=.5,vjust=0,face="plain"),   
+          axis.title.y = element_text(colour="grey20",size=12,angle=90,hjust=.5,vjust=.5,face="plain")))  
+```
+
+```{r plot AOD isolate only graphs and adjacency matrix}
+AOD_network <- read.graph ("AOD_all_Oct.graph.graphml", format = "graphml")
+AOD_network <- read.graph ("AOD_VFDB_Oct.graph.graphml", format = "graphml")
+
+AOD_file<-delete_edges(AOD_network, which(E(AOD_network)$weight <=100))
+
+AOD_file2<-igraph::degree(AOD_file)
+
+AOD_file3<-as.data.frame(AOD_file2)
+
+file_row_names<-V(AOD_file)$id
+AOD_file4<-cbind(file_row_names, AOD_file3)
+
+colnames(AOD_file4)[1]<-"nodes"
+colnames(AOD_file4)[2]<-"value"
+
+names(AOD_file4)
+str(AOD_file4)
+
+JD.adjacency_less_weight<-as_adjacency_matrix(AOD_file)
+
+colrs2<-c("green", "green", "green", "tomato", "darksalmon", "darksalmon", "tomato","tomato")
+
+(plot1<-ggnet2(network(JD.adjacency_less_weight, directed = TRUE), 
+               alpha=0.75, label=F, label.size =4,node.color = colrs2, mode="kamadakawai",
+               arrow.gap = 0.05, arrow.size = 4, size = 11, node.size = 24, edge.size = 2, layout.par = list(cell.jitter = 1))+
+    geom_point(aes(color = color), size = 0, color = "white")+
+    geom_text(aes(label = c("1" = "Gq FRB97", "2" = "Gq N78","3" = "Gq FRB124", "4" = "Bg FRB171","5" = "R.variigena","6" = "R.victoriana", "7" = "L.britannica","8" = "Bg FRB141")), 
+              color="white", size = 2, fontface="bold")+ guides(color = F))
+
+
+edge_df<-as_data_frame(AOD_network, what = "edges")
+
+edge_df$from<-as.factor(edge_df$from)
+edge_df$to<-as.factor(edge_df$to)
+
+
+(p2<-ggplot(edge_df, aes(x=from, y=to, col=weight)) +
+    geom_point(shape = 15, size=20)+
+    xlab("")+
+    ylab("")+
+    scale_colour_gradient(low="grey", high="grey1" )+
+    scale_x_discrete(labels=c("1" = "Gq FRB97", "2" = "Gq N78","3" = "Gq FRB124", "4" = "Bg FRB171","5" = "R.variigena","6" = "R.victoriana", "7" = "L.britannica","8" = "Bg FRB141"))+                  
+    scale_y_discrete(labels=c("1" = "Gq FRB97", "2" = "Gq N78","3" = "Gq FRB124", "4" = "Bg FRB171","5" = "R.variigena","6" = "R.victoriana", "7" = "L.britannica","8" = "Bg FRB141"))+                  
+    theme_bw() +   # remove grey background
+    theme(panel.grid.minor = element_blank())+   # remove minor lines on plot
+    theme(panel.grid.major = element_blank())+   # remove major lines on plot
+    theme(axis.text.x = element_text(colour="grey20",size=10,angle=90,hjust=.5,vjust=.5,face="plain"),  #horizontal axis text, grey, size 16, no angle etc.
+          axis.text.y = element_text(colour="grey20",size=10,angle=0,hjust=1,vjust=0,face="plain"),     #vertical axis text, grey, size 16, no angle etc.
+          axis.title.x = element_text(colour="grey20",size=12,angle=0,hjust=.5,vjust=0,face="plain"),   #horizontal axis label, grey, size 20, no angle etc.
+          #axis.ticks = element_blank(),
+          axis.title.y = element_text(colour="grey20",size=12,angle=90,hjust=.5,vjust=.5,face="plain")))  #vertical axis label, grey, size 20, no angle etc.
+
+```
+
+```{r Yes no plot of phytopathogenic gene homologs}
+
+data<-read.csv("Yes_no_data.csv")
+
+data$Present<-as.factor(data$Present)
+
+(p1.1<-ggplot(data, aes(x=factor(Gene, levels = unique(Gene)), y=Bacteria,col = Present )) +      geom_point(shape = 15, size=6)+
+  
+   xlab("")+
+   ylab("Genome")+
+   scale_colour_manual(values=c("Black", "Gold", "Grey"), 
+                       name="Present vs. Absent",
+                       breaks=c("0", "1", "2"),
+                       labels=c("Present", "Absent", "Partial"))+
+   scale_x_discrete(labels=c("Pectate disaccharide-lyase" = "Pectate\nndisaccharide-lyase", "Rhanmogalacturonan\nendolyase" = "Rhanmogalacturonan\nendolyase", "beta-xylosidase" = "\u03B2-xylosidase", "alpha-galactosidase" = "\u03B1-galactosidase", "beta-xylanase" = "\u03B2-xylanase", "beta-galactosidase" = "\u03B2-galactosidase", "beta-glucosidase" = "\u03B2-glucosidase", "alpha-L-arabinosidase" = "\u03B1-L-arabinosidase", "alpha-glucuronidase" = "\u03B1-glucuronidase", "Pectin lyase", "Pectate lyase", "Cellulase",  "Arabinosidase", "Galactanase",
+                             "Polyglacturonase",
+                             "Avicelase"))+
+                        #scale_y_discrete(labels=mylabels)+
+   theme_bw() +   # remove grey background
+   theme(legend.position="top")+
+   theme(legend.title = element_blank())+
+   theme(legend.text = element_text(size = 10))+
+   theme(legend.key = element_rect(fill = "White"))+
+   theme(legend.background = element_rect(fill = "Grey96", size = 0.5, linetype = "solid"))+
+   theme(panel.grid.minor = element_blank())+   # remove minor lines on plot
+   theme(panel.grid.major = element_blank())+   # remove major lines on plot
+   theme(axis.text.x = element_text(colour="grey20",size=8,angle=90,hjust=.5,vjust=.5,face="plain"),  #horizontal axis text, grey, size 16, no angle etc.
+         axis.text.y = element_text(colour="grey20",size=8,angle=0,hjust=1,vjust=0,face="italic"),     #vertical axis text, grey, size 16, no angle etc.
+         axis.title.x = element_text(colour="grey20",size=18,angle=0,hjust=.5,vjust=0,face="plain"),   #horizontal axis label, grey, size 20, no angle etc.
+         axis.title.y = element_text(colour="grey20",size=12,angle=90,hjust=.5,vjust=.5,face="plain")))  #vertical axis label, grey, size 20, no angle etc.
+
+```
+
+```{r calculate chi-squared from binary phytopathogenicity data}
+binomial<-read.csv("Yes_no_data.csv")
+binomial$Present[binomial$Present==2]<-0
+binomial$Present<-as.integer(binomial$Present)
+
+xchisq<-chisq.test(binomial$Bacteria, binomial$Present, correct=FALSE)
+xchisq
+
+# select bacteria
+Gq<-binomial[binomial$Bacteria %like%"quercinecans", ]
+Bg<-binomial[binomial$Bacteria %like%"goodwinii", ]
+
+Gq$genus<-"Gibbsiella"
+Bg$genus<-"Brenneria"
+Gq_Bg<-rbind(Gq, Bg)
+xchisq_Gq_Bg<-chisq.test(Gq_Bg$genus, Gq_Bg$Present, correct=FALSE)
+xchisq_Gq_Bg
+```

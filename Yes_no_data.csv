@@ -1,0 +1,2118 @@
+Gene,Bacteria,Present,Category
+Pectate disaccharide-lyase,R. victoriana,0,PCWDE
+Pectate lyase,R. victoriana,0,PCWDE
+Rhanmogalacturonan endolyase,R. victoriana,0,PCWDE
+Pectin lyase,R. victoriana,0,PCWDE
+Cellulase,R. victoriana,1,PCWDE
+beta-xylanase,R. victoriana,0,PCWDE
+Arabinosidase,R. victoriana,0,PCWDE
+beta-galactosidase,R. victoriana,1,PCWDE
+beta-xylosidase,R. victoriana,0,PCWDE
+beta-glucosidase,R. victoriana,1,PCWDE
+alpha-galactosidase,R. victoriana,0,PCWDE
+Galactanase,R. victoriana,0,PCWDE
+Polyglacturonase,R. victoriana,0,PCWDE
+Avicelase,R. victoriana,0,PCWDE
+alpha-L-arabinosidase,R. victoriana,0,PCWDE
+alpha-glucuronidase,R. victoriana,0,PCWDE
+Harpin(HrpN),R. victoriana,0,Harpin
+Harpin(HrpW),R. victoriana,0,Harpin
+Harpin(HrpA2),R. victoriana,0,Harpin
+Harpin(HrpZ1),R. victoriana,0,Harpin
+Harpin(HrpK1),R. victoriana,0,Harpin
+Harpin(PopW),R. victoriana,0,Harpin
+Harpin(HrcR),R. victoriana,0,Harpin
+Harpin(HopAK1),R. victoriana,0,Harpin
+HopAN1,R. victoriana,0,Effector
+HopAC1,R. victoriana,0,Effector
+HopAG1,R. victoriana,0,Effector
+HopAH1,R. victoriana,0,Effector
+HopAI1,R. victoriana,0,Effector
+HopJ1,R. victoriana,0,Effector
+HopAA1,R. victoriana,0,Effector
+HopM1,R. victoriana,0,Effector
+HopX1,R. victoriana,0,Effector
+HopQ1,R. victoriana,0,Effector
+HopF2,R. victoriana,0,Effector
+HopV1,R. victoriana,0,Effector
+HopR1,R. victoriana,0,Effector
+HopZ3,R. victoriana,0,Effector
+HopH1,R. victoriana,0,Effector
+HopL1,R. victoriana,1,Effector
+HopAH2,R. victoriana,0,Effector
+HopAJ1,R. victoriana,0,Effector
+HopPtoC,R. victoriana,0,Effector
+HopAV1,R. victoriana,0,Effector
+HopAF1,R. victoriana,1,Effector
+HopI1,R. victoriana,0,Effector
+HopAE1,R. victoriana,0,Effector
+HopAJ2,R. victoriana,1,Effector
+HopAB1,R. victoriana,0,Effector
+HopE1,R. victoriana,0,Effector
+HopAW1,R. victoriana,0,Effector
+HopP1,R. victoriana,0,Effector
+AvrBs2,R. victoriana,0,Effector
+AvrA,R. victoriana,0,Effector
+AvrRxv,R. victoriana,0,Effector
+AvrRpm1,R. victoriana,0,Effector
+AvrXccE1,R. victoriana,0,Effector
+AvrRpt2,R. victoriana,0,Effector
+AvrBs3,R. victoriana,0,Effector
+AvrE1,R. victoriana,0,Effector
+AvrB3,R. victoriana,0,Effector
+AvrXccB,R. victoriana,0,Effector
+DspA/E,R. victoriana,0,Effector
+DspF,R. victoriana,0,Effector
+Rsc3369,R. victoriana,0,Effector
+MxiE,R. victoriana,1,Effector
+ExoU,R. victoriana,0,Effector
+T2SS,R. victoriana,1,T2SS
+T3SS,R. victoriana,2,T3SS
+T4SS,R. victoriana,1,T4SS
+T6SS,R. victoriana,1,T6SS
+Flagella,R. victoriana,1,Flagella
+Pili,R. victoriana,1,Pili
+Pectate disaccharide-lyase,E.billingiae,0,PCWDE
+Pectate lyase,E.billingiae,0,PCWDE
+Rhanmogalacturonan endolyase,E.billingiae,0,PCWDE
+Pectin lyase,E.billingiae,0,PCWDE
+Cellulase,E.billingiae,1,PCWDE
+beta-xylanase,E.billingiae,0,PCWDE
+Arabinosidase,E.billingiae,0,PCWDE
+beta-galactosidase,E.billingiae,1,PCWDE
+beta-xylosidase,E.billingiae,0,PCWDE
+beta-glucosidase,E.billingiae,1,PCWDE
+alpha-galactosidase,E.billingiae,0,PCWDE
+Galactanase,E.billingiae,0,PCWDE
+Polyglacturonase,E.billingiae,0,PCWDE
+Avicelase,E.billingiae,0,PCWDE
+alpha-L-arabinosidase,E.billingiae,0,PCWDE
+alpha-glucuronidase,E.billingiae,0,PCWDE
+Harpin(HrpN),E.billingiae,0,Harpin
+Harpin(HrpW),E.billingiae,0,Harpin
+Harpin(HrpA2),E.billingiae,0,Harpin
+Harpin(HrpZ1),E.billingiae,0,Harpin
+Harpin(HrpK1),E.billingiae,0,Harpin
+Harpin(PopW),E.billingiae,0,Harpin
+Harpin(HrcR),E.billingiae,0,Harpin
+Harpin(HopAK1),E.billingiae,0,Harpin
+HopAN1,E.billingiae,1,Effector
+HopAC1,E.billingiae,0,Effector
+HopAG1,E.billingiae,0,Effector
+HopAH1,E.billingiae,0,Effector
+HopAI1,E.billingiae,0,Effector
+HopJ1,E.billingiae,0,Effector
+HopAA1,E.billingiae,0,Effector
+HopM1,E.billingiae,0,Effector
+HopX1,E.billingiae,0,Effector
+HopQ1,E.billingiae,0,Effector
+HopF2,E.billingiae,0,Effector
+HopV1,E.billingiae,0,Effector
+HopR1,E.billingiae,0,Effector
+HopZ3,E.billingiae,0,Effector
+HopH1,E.billingiae,0,Effector
+HopL1,E.billingiae,1,Effector
+HopAH2,E.billingiae,0,Effector
+HopAJ1,E.billingiae,0,Effector
+HopPtoC,E.billingiae,0,Effector
+HopAV1,E.billingiae,0,Effector
+HopAF1,E.billingiae,1,Effector
+HopI1,E.billingiae,0,Effector
+HopAE1,E.billingiae,0,Effector
+HopAJ2,E.billingiae,1,Effector
+HopAB1,E.billingiae,0,Effector
+HopE1,E.billingiae,0,Effector
+HopAW1,E.billingiae,0,Effector
+HopP1,E.billingiae,0,Effector
+AvrBs2,E.billingiae,0,Effector
+AvrA,E.billingiae,0,Effector
+AvrRxv,E.billingiae,0,Effector
+AvrRpm1,E.billingiae,0,Effector
+AvrXccE1,E.billingiae,0,Effector
+AvrRpt2,E.billingiae,0,Effector
+AvrBs3,E.billingiae,0,Effector
+AvrE1,E.billingiae,0,Effector
+AvrB3,E.billingiae,0,Effector
+AvrXccB,E.billingiae,0,Effector
+DspA/E,E.billingiae,0,Effector
+DspF,E.billingiae,0,Effector
+Rsc3369,E.billingiae,0,Effector
+MxiE,E.billingiae,0,Effector
+ExoU,E.billingiae,0,Effector
+T2SS,E.billingiae,0,T2SS
+T3SS,E.billingiae,0,T3SS
+T4SS,E.billingiae,0,T4SS
+T6SS,E.billingiae,1,T6SS
+Flagella,E.billingiae,1,Flagella
+Pili,E.billingiae,1,Pili
+Pectate disaccharide-lyase,R.variigena,1,PCWDE
+Pectate lyase,R.variigena,0,PCWDE
+Rhanmogalacturonan endolyase,R.variigena,0,PCWDE
+Pectin lyase,R.variigena,0,PCWDE
+Cellulase,R.variigena,1,PCWDE
+beta-xylanase,R.variigena,0,PCWDE
+Arabinosidase,R.variigena,0,PCWDE
+beta-galactosidase,R.variigena,1,PCWDE
+beta-xylosidase,R.variigena,0,PCWDE
+beta-glucosidase,R.variigena,1,PCWDE
+alpha-galactosidase,R.variigena,1,PCWDE
+Galactanase,R.variigena,1,PCWDE
+Polyglacturonase,R.variigena,0,PCWDE
+Avicelase,R.variigena,0,PCWDE
+alpha-L-arabinosidase,R.variigena,0,PCWDE
+alpha-glucuronidase,R.variigena,0,PCWDE
+Harpin(HrpN),R.variigena,0,Harpin
+Harpin(HrpW),R.variigena,0,Harpin
+Harpin(HrpA2),R.variigena,0,Harpin
+Harpin(HrpZ1),R.variigena,0,Harpin
+Harpin(HrpK1),R.variigena,0,Harpin
+Harpin(PopW),R.variigena,0,Harpin
+Harpin(HrcR),R.variigena,0,Harpin
+Harpin(HopAK1),R.variigena,0,Harpin
+HopAN1,R.variigena,0,Effector
+HopAC1,R.variigena,0,Effector
+HopAG1,R.variigena,0,Effector
+HopAH1,R.variigena,0,Effector
+HopAI1,R.variigena,0,Effector
+HopJ1,R.variigena,0,Effector
+HopAA1,R.variigena,0,Effector
+HopM1,R.variigena,0,Effector
+HopX1,R.variigena,0,Effector
+HopQ1,R.variigena,0,Effector
+HopF2,R.variigena,0,Effector
+HopV1,R.variigena,0,Effector
+HopR1,R.variigena,0,Effector
+HopZ3,R.variigena,0,Effector
+HopH1,R.variigena,0,Effector
+HopL1,R.variigena,1,Effector
+HopAH2,R.variigena,0,Effector
+HopAJ1,R.variigena,0,Effector
+HopPtoC,R.variigena,0,Effector
+HopAV1,R.variigena,0,Effector
+HopAF1,R.variigena,1,Effector
+HopI1,R.variigena,0,Effector
+HopAE1,R.variigena,0,Effector
+HopAJ2,R.variigena,1,Effector
+HopAB1,R.variigena,0,Effector
+HopE1,R.variigena,0,Effector
+HopAW1,R.variigena,0,Effector
+HopP1,R.variigena,0,Effector
+AvrBs2,R.variigena,0,Effector
+AvrA,R.variigena,0,Effector
+AvrRxv,R.variigena,0,Effector
+AvrRpm1,R.variigena,0,Effector
+AvrXccE1,R.variigena,0,Effector
+AvrRpt2,R.variigena,0,Effector
+AvrBs3,R.variigena,0,Effector
+AvrE1,R.variigena,0,Effector
+AvrB3,R.variigena,0,Effector
+AvrXccB,R.variigena,0,Effector
+DspA/E,R.variigena,0,Effector
+DspF,R.variigena,0,Effector
+Rsc3369,R.variigena,0,Effector
+MxiE,R.variigena,1,Effector
+ExoU,R.variigena,0,Effector
+T2SS,R.variigena,0,T2SS
+T3SS,R.variigena,2,T3SS
+T4SS,R.variigena,2,T4SS
+T6SS,R.variigena,1,T6SS
+Flagella,R.variigena,1,Flagella
+Pili,R.variigena,1,Pili
+Pectate disaccharide-lyase,G.quercinecans N78,0,PCWDE
+Pectate lyase,G.quercinecans N78,0,PCWDE
+Rhanmogalacturonan endolyase,G.quercinecans N78,1,PCWDE
+Pectin lyase,G.quercinecans N78,0,PCWDE
+Cellulase,G.quercinecans N78,1,PCWDE
+beta-xylanase,G.quercinecans N78,0,PCWDE
+Arabinosidase,G.quercinecans N78,0,PCWDE
+beta-galactosidase,G.quercinecans N78,0,PCWDE
+beta-xylosidase,G.quercinecans N78,0,PCWDE
+beta-glucosidase,G.quercinecans N78,0,PCWDE
+alpha-galactosidase,G.quercinecans N78,1,PCWDE
+Galactanase,G.quercinecans N78,0,PCWDE
+Polyglacturonase,G.quercinecans N78,1,PCWDE
+Avicelase,G.quercinecans N78,0,PCWDE
+alpha-L-arabinosidase,G.quercinecans N78,0,PCWDE
+alpha-glucuronidase,G.quercinecans N78,0,PCWDE
+Harpin(HrpN),G.quercinecans N78,0,Harpin
+Harpin(HrpW),G.quercinecans N78,0,Harpin
+Harpin(HrpA2),G.quercinecans N78,0,Harpin
+Harpin(HrpZ1),G.quercinecans N78,0,Harpin
+Harpin(HrpK1),G.quercinecans N78,0,Harpin
+Harpin(PopW),G.quercinecans N78,0,Harpin
+Harpin(HrcR),G.quercinecans N78,0,Harpin
+Harpin(HopAK1),G.quercinecans N78,0,Harpin
+HopAN1,G.quercinecans N78,1,Effector
+HopAC1,G.quercinecans N78,0,Effector
+HopAG1,G.quercinecans N78,0,Effector
+HopAH1,G.quercinecans N78,0,Effector
+HopAI1,G.quercinecans N78,0,Effector
+HopJ1,G.quercinecans N78,0,Effector
+HopAA1,G.quercinecans N78,0,Effector
+HopM1,G.quercinecans N78,0,Effector
+HopX1,G.quercinecans N78,0,Effector
+HopQ1,G.quercinecans N78,0,Effector
+HopF2,G.quercinecans N78,0,Effector
+HopV1,G.quercinecans N78,0,Effector
+HopR1,G.quercinecans N78,0,Effector
+HopZ3,G.quercinecans N78,0,Effector
+HopH1,G.quercinecans N78,0,Effector
+HopL1,G.quercinecans N78,0,Effector
+HopAH2,G.quercinecans N78,0,Effector
+HopAJ1,G.quercinecans N78,0,Effector
+HopPtoC,G.quercinecans N78,0,Effector
+HopAV1,G.quercinecans N78,0,Effector
+HopAF1,G.quercinecans N78,1,Effector
+HopI1,G.quercinecans N78,0,Effector
+HopAE1,G.quercinecans N78,0,Effector
+HopAJ2,G.quercinecans N78,1,Effector
+HopAB1,G.quercinecans N78,0,Effector
+HopE1,G.quercinecans N78,0,Effector
+HopAW1,G.quercinecans N78,0,Effector
+HopP1,G.quercinecans N78,0,Effector
+AvrBs2,G.quercinecans N78,0,Effector
+AvrA,G.quercinecans N78,0,Effector
+AvrRxv,G.quercinecans N78,0,Effector
+AvrRpm1,G.quercinecans N78,0,Effector
+AvrXccE1,G.quercinecans N78,0,Effector
+AvrRpt2,G.quercinecans N78,0,Effector
+AvrBs3,G.quercinecans N78,0,Effector
+AvrE1,G.quercinecans N78,0,Effector
+AvrB3,G.quercinecans N78,0,Effector
+AvrXccB,G.quercinecans N78,0,Effector
+DspA/E,G.quercinecans N78,0,Effector
+DspF,G.quercinecans N78,0,Effector
+Rsc3369,G.quercinecans N78,0,Effector
+MxiE,G.quercinecans N78,1,Effector
+ExoU,G.quercinecans N78,0,Effector
+T2SS,G.quercinecans N78,2,T2SS
+T3SS,G.quercinecans N78,0,T3SS
+T4SS,G.quercinecans N78,0,T4SS
+T6SS,G.quercinecans N78,1,T6SS
+Flagella,G.quercinecans N78,0,Flagella
+Pili,G.quercinecans N78,1,Pili
+Pectate disaccharide-lyase,G.quercinecans FRB124,0,PCWDE
+Pectate lyase,G.quercinecans FRB124,0,PCWDE
+Rhanmogalacturonan endolyase,G.quercinecans FRB124,1,PCWDE
+Pectin lyase,G.quercinecans FRB124,0,PCWDE
+Cellulase,G.quercinecans FRB124,1,PCWDE
+beta-xylanase,G.quercinecans FRB124,0,PCWDE
+Arabinosidase,G.quercinecans FRB124,0,PCWDE
+beta-galactosidase,G.quercinecans FRB124,0,PCWDE
+beta-xylosidase,G.quercinecans FRB124,0,PCWDE
+beta-glucosidase,G.quercinecans FRB124,1,PCWDE
+alpha-galactosidase,G.quercinecans FRB124,1,PCWDE
+Galactanase,G.quercinecans FRB124,0,PCWDE
+Polyglacturonase,G.quercinecans FRB124,1,PCWDE
+Avicelase,G.quercinecans FRB124,0,PCWDE
+alpha-L-arabinosidase,G.quercinecans FRB124,0,PCWDE
+alpha-glucuronidase,G.quercinecans FRB124,0,PCWDE
+Harpin(HrpN),G.quercinecans FRB124,0,Harpin
+Harpin(HrpW),G.quercinecans FRB124,0,Harpin
+Harpin(HrpA2),G.quercinecans FRB124,0,Harpin
+Harpin(HrpZ1),G.quercinecans FRB124,0,Harpin
+Harpin(HrpK1),G.quercinecans FRB124,0,Harpin
+Harpin(PopW),G.quercinecans FRB124,0,Harpin
+Harpin(HrcR),G.quercinecans FRB124,0,Harpin
+Harpin(HopAK1),G.quercinecans FRB124,0,Harpin
+HopAN1,G.quercinecans FRB124,1,Effector
+HopAC1,G.quercinecans FRB124,0,Effector
+HopAG1,G.quercinecans FRB124,0,Effector
+HopAH1,G.quercinecans FRB124,0,Effector
+HopAI1,G.quercinecans FRB124,0,Effector
+HopJ1,G.quercinecans FRB124,0,Effector
+HopAA1,G.quercinecans FRB124,0,Effector
+HopM1,G.quercinecans FRB124,0,Effector
+HopX1,G.quercinecans FRB124,0,Effector
+HopQ1,G.quercinecans FRB124,0,Effector
+HopF2,G.quercinecans FRB124,0,Effector
+HopV1,G.quercinecans FRB124,0,Effector
+HopR1,G.quercinecans FRB124,0,Effector
+HopZ3,G.quercinecans FRB124,0,Effector
+HopH1,G.quercinecans FRB124,0,Effector
+HopL1,G.quercinecans FRB124,0,Effector
+HopAH2,G.quercinecans FRB124,0,Effector
+HopAJ1,G.quercinecans FRB124,0,Effector
+HopPtoC,G.quercinecans FRB124,0,Effector
+HopAV1,G.quercinecans FRB124,0,Effector
+HopAF1,G.quercinecans FRB124,1,Effector
+HopI1,G.quercinecans FRB124,0,Effector
+HopAE1,G.quercinecans FRB124,0,Effector
+HopAJ2,G.quercinecans FRB124,1,Effector
+HopAB1,G.quercinecans FRB124,0,Effector
+HopE1,G.quercinecans FRB124,0,Effector
+HopAW1,G.quercinecans FRB124,0,Effector
+HopP1,G.quercinecans FRB124,0,Effector
+AvrBs2,G.quercinecans FRB124,0,Effector
+AvrA,G.quercinecans FRB124,0,Effector
+AvrRxv,G.quercinecans FRB124,0,Effector
+AvrRpm1,G.quercinecans FRB124,0,Effector
+AvrXccE1,G.quercinecans FRB124,0,Effector
+AvrRpt2,G.quercinecans FRB124,0,Effector
+AvrBs3,G.quercinecans FRB124,0,Effector
+AvrE1,G.quercinecans FRB124,0,Effector
+AvrB3,G.quercinecans FRB124,0,Effector
+AvrXccB,G.quercinecans FRB124,0,Effector
+DspA/E,G.quercinecans FRB124,0,Effector
+DspF,G.quercinecans FRB124,0,Effector
+Rsc3369,G.quercinecans FRB124,0,Effector
+MxiE,G.quercinecans FRB124,1,Effector
+ExoU,G.quercinecans FRB124,0,Effector
+T2SS,G.quercinecans FRB124,1,T2SS
+T3SS,G.quercinecans FRB124,0,T3SS
+T4SS,G.quercinecans FRB124,0,T4SS
+T6SS,G.quercinecans FRB124,1,T6SS
+Flagella,G.quercinecans FRB124,2,Flagella
+Pili,G.quercinecans FRB124,1,Pili
+Pectate disaccharide-lyase,G.quercinecans FRB97,0,PCWDE
+Pectate lyase,G.quercinecans FRB97,0,PCWDE
+Rhanmogalacturonan endolyase,G.quercinecans FRB97,1,PCWDE
+Pectin lyase,G.quercinecans FRB97,0,PCWDE
+Cellulase,G.quercinecans FRB97,1,PCWDE
+beta-xylanase,G.quercinecans FRB97,0,PCWDE
+Arabinosidase,G.quercinecans FRB97,0,PCWDE
+beta-galactosidase,G.quercinecans FRB97,0,PCWDE
+beta-xylosidase,G.quercinecans FRB97,0,PCWDE
+beta-glucosidase,G.quercinecans FRB97,1,PCWDE
+alpha-galactosidase,G.quercinecans FRB97,0,PCWDE
+Galactanase,G.quercinecans FRB97,1,PCWDE
+Polyglacturonase,G.quercinecans FRB97,1,PCWDE
+Avicelase,G.quercinecans FRB97,0,PCWDE
+alpha-L-arabinosidase,G.quercinecans FRB97,0,PCWDE
+alpha-glucuronidase,G.quercinecans FRB97,0,PCWDE
+Harpin(HrpN),G.quercinecans FRB97,0,Harpin
+Harpin(HrpW),G.quercinecans FRB97,0,Harpin
+Harpin(HrpA2),G.quercinecans FRB97,0,Harpin
+Harpin(HrpZ1),G.quercinecans FRB97,0,Harpin
+Harpin(HrpK1),G.quercinecans FRB97,0,Harpin
+Harpin(PopW),G.quercinecans FRB97,0,Harpin
+Harpin(HrcR),G.quercinecans FRB97,0,Harpin
+Harpin(HopAK1),G.quercinecans FRB97,0,Harpin
+HopAN1,G.quercinecans FRB97,1,Effector
+HopAC1,G.quercinecans FRB97,0,Effector
+HopAG1,G.quercinecans FRB97,0,Effector
+HopAH1,G.quercinecans FRB97,0,Effector
+HopAI1,G.quercinecans FRB97,0,Effector
+HopJ1,G.quercinecans FRB97,0,Effector
+HopAA1,G.quercinecans FRB97,0,Effector
+HopM1,G.quercinecans FRB97,0,Effector
+HopX1,G.quercinecans FRB97,0,Effector
+HopQ1,G.quercinecans FRB97,0,Effector
+HopF2,G.quercinecans FRB97,0,Effector
+HopV1,G.quercinecans FRB97,0,Effector
+HopR1,G.quercinecans FRB97,0,Effector
+HopZ3,G.quercinecans FRB97,0,Effector
+HopH1,G.quercinecans FRB97,0,Effector
+HopL1,G.quercinecans FRB97,0,Effector
+HopAH2,G.quercinecans FRB97,0,Effector
+HopAJ1,G.quercinecans FRB97,0,Effector
+HopPtoC,G.quercinecans FRB97,0,Effector
+HopAV1,G.quercinecans FRB97,0,Effector
+HopAF1,G.quercinecans FRB97,1,Effector
+HopI1,G.quercinecans FRB97,0,Effector
+HopAE1,G.quercinecans FRB97,0,Effector
+HopAJ2,G.quercinecans FRB97,1,Effector
+HopAB1,G.quercinecans FRB97,0,Effector
+HopE1,G.quercinecans FRB97,0,Effector
+HopAW1,G.quercinecans FRB97,0,Effector
+HopP1,G.quercinecans FRB97,0,Effector
+AvrBs2,G.quercinecans FRB97,0,Effector
+AvrA,G.quercinecans FRB97,0,Effector
+AvrRxv,G.quercinecans FRB97,0,Effector
+AvrRpm1,G.quercinecans FRB97,0,Effector
+AvrXccE1,G.quercinecans FRB97,0,Effector
+AvrRpt2,G.quercinecans FRB97,0,Effector
+AvrBs3,G.quercinecans FRB97,0,Effector
+AvrE1,G.quercinecans FRB97,0,Effector
+AvrB3,G.quercinecans FRB97,0,Effector
+AvrXccB,G.quercinecans FRB97,0,Effector
+DspA/E,G.quercinecans FRB97,0,Effector
+DspF,G.quercinecans FRB97,0,Effector
+Rsc3369,G.quercinecans FRB97,0,Effector
+MxiE,G.quercinecans FRB97,1,Effector
+ExoU,G.quercinecans FRB97,0,Effector
+T2SS,G.quercinecans FRB97,1,T2SS
+T3SS,G.quercinecans FRB97,0,T3SS
+T4SS,G.quercinecans FRB97,0,T4SS
+T6SS,G.quercinecans FRB97,1,T6SS
+Flagella,G.quercinecans FRB97,2,Flagella
+Pili,G.quercinecans FRB97,1,Pili
+Pectate disaccharide-lyase,G.diazotrophicus,0,PCWDE
+Pectate lyase,G.diazotrophicus,0,PCWDE
+Rhanmogalacturonan endolyase,G.diazotrophicus,0,PCWDE
+Pectin lyase,G.diazotrophicus,0,PCWDE
+Cellulase,G.diazotrophicus,1,PCWDE
+beta-xylanase,G.diazotrophicus,0,PCWDE
+Arabinosidase,G.diazotrophicus,0,PCWDE
+beta-galactosidase,G.diazotrophicus,0,PCWDE
+beta-xylosidase,G.diazotrophicus,0,PCWDE
+beta-glucosidase,G.diazotrophicus,1,PCWDE
+alpha-galactosidase,G.diazotrophicus,0,PCWDE
+Galactanase,G.diazotrophicus,0,PCWDE
+Polyglacturonase,G.diazotrophicus,0,PCWDE
+Avicelase,G.diazotrophicus,0,PCWDE
+alpha-L-arabinosidase,G.diazotrophicus,0,PCWDE
+alpha-glucuronidase,G.diazotrophicus,0,PCWDE
+Harpin(HrpN),G.diazotrophicus,0,Harpin
+Harpin(HrpW),G.diazotrophicus,0,Harpin
+Harpin(HrpA2),G.diazotrophicus,0,Harpin
+Harpin(HrpZ1),G.diazotrophicus,0,Harpin
+Harpin(HrpK1),G.diazotrophicus,0,Harpin
+Harpin(PopW),G.diazotrophicus,0,Harpin
+Harpin(HrcR),G.diazotrophicus,0,Harpin
+Harpin(HopAK1),G.diazotrophicus,0,Harpin
+HopAN1,G.diazotrophicus,0,Effector
+HopAC1,G.diazotrophicus,0,Effector
+HopAG1,G.diazotrophicus,0,Effector
+HopAH1,G.diazotrophicus,0,Effector
+HopAI1,G.diazotrophicus,0,Effector
+HopJ1,G.diazotrophicus,0,Effector
+HopAA1,G.diazotrophicus,0,Effector
+HopM1,G.diazotrophicus,0,Effector
+HopX1,G.diazotrophicus,0,Effector
+HopQ1,G.diazotrophicus,0,Effector
+HopF2,G.diazotrophicus,0,Effector
+HopV1,G.diazotrophicus,0,Effector
+HopR1,G.diazotrophicus,0,Effector
+HopZ3,G.diazotrophicus,0,Effector
+HopH1,G.diazotrophicus,0,Effector
+HopL1,G.diazotrophicus,0,Effector
+HopAH2,G.diazotrophicus,0,Effector
+HopAJ1,G.diazotrophicus,0,Effector
+HopPtoC,G.diazotrophicus,0,Effector
+HopAV1,G.diazotrophicus,0,Effector
+HopAF1,G.diazotrophicus,0,Effector
+HopI1,G.diazotrophicus,1,Effector
+HopAE1,G.diazotrophicus,0,Effector
+HopAJ2,G.diazotrophicus,1,Effector
+HopAB1,G.diazotrophicus,0,Effector
+HopE1,G.diazotrophicus,0,Effector
+HopAW1,G.diazotrophicus,0,Effector
+HopP1,G.diazotrophicus,1,Effector
+AvrBs2,G.diazotrophicus,0,Effector
+AvrA,G.diazotrophicus,0,Effector
+AvrRxv,G.diazotrophicus,0,Effector
+AvrRpm1,G.diazotrophicus,0,Effector
+AvrXccE1,G.diazotrophicus,0,Effector
+AvrRpt2,G.diazotrophicus,0,Effector
+AvrBs3,G.diazotrophicus,0,Effector
+AvrE1,G.diazotrophicus,0,Effector
+AvrB3,G.diazotrophicus,0,Effector
+AvrXccB,G.diazotrophicus,0,Effector
+DspA/E,G.diazotrophicus,0,Effector
+DspF,G.diazotrophicus,0,Effector
+Rsc3369,G.diazotrophicus,0,Effector
+MxiE,G.diazotrophicus,1,Effector
+ExoU,G.diazotrophicus,0,Effector
+T2SS,G.diazotrophicus,0,T2SS
+T3SS,G.diazotrophicus,0,T3SS
+T4SS,G.diazotrophicus,0,T4SS
+T6SS,G.diazotrophicus,0,T6SS
+Flagella,G.diazotrophicus,1,Flagella
+Pili,G.diazotrophicus,1,Pili
+Pectate disaccharide-lyase,A.brasilense,0,PCWDE
+Pectate lyase,A.brasilense,0,PCWDE
+Rhanmogalacturonan endolyase,A.brasilense,0,PCWDE
+Pectin lyase,A.brasilense,0,PCWDE
+Cellulase,A.brasilense,1,PCWDE
+beta-xylanase,A.brasilense,1,PCWDE
+Arabinosidase,A.brasilense,0,PCWDE
+beta-galactosidase,A.brasilense,1,PCWDE
+beta-xylosidase,A.brasilense,1,PCWDE
+beta-glucosidase,A.brasilense,1,PCWDE
+alpha-galactosidase,A.brasilense,1,PCWDE
+Galactanase,A.brasilense,0,PCWDE
+Polyglacturonase,A.brasilense,0,PCWDE
+Avicelase,A.brasilense,0,PCWDE
+alpha-L-arabinosidase,A.brasilense,0,PCWDE
+alpha-glucuronidase,A.brasilense,0,PCWDE
+Harpin(HrpN),A.brasilense,0,Harpin
+Harpin(HrpW),A.brasilense,0,Harpin
+Harpin(HrpA2),A.brasilense,0,Harpin
+Harpin(HrpZ1),A.brasilense,0,Harpin
+Harpin(HrpK1),A.brasilense,0,Harpin
+Harpin(PopW),A.brasilense,0,Harpin
+Harpin(HrcR),A.brasilense,0,Harpin
+Harpin(HopAK1),A.brasilense,0,Harpin
+HopAN1,A.brasilense,0,Effector
+HopAC1,A.brasilense,0,Effector
+HopAG1,A.brasilense,0,Effector
+HopAH1,A.brasilense,0,Effector
+HopAI1,A.brasilense,0,Effector
+HopJ1,A.brasilense,0,Effector
+HopAA1,A.brasilense,0,Effector
+HopM1,A.brasilense,0,Effector
+HopX1,A.brasilense,0,Effector
+HopQ1,A.brasilense,0,Effector
+HopF2,A.brasilense,0,Effector
+HopV1,A.brasilense,0,Effector
+HopR1,A.brasilense,0,Effector
+HopZ3,A.brasilense,0,Effector
+HopH1,A.brasilense,0,Effector
+HopL1,A.brasilense,0,Effector
+HopAH2,A.brasilense,0,Effector
+HopAJ1,A.brasilense,0,Effector
+HopPtoC,A.brasilense,0,Effector
+HopAV1,A.brasilense,0,Effector
+HopAF1,A.brasilense,0,Effector
+HopI1,A.brasilense,1,Effector
+HopAE1,A.brasilense,0,Effector
+HopAJ2,A.brasilense,1,Effector
+HopAB1,A.brasilense,0,Effector
+HopE1,A.brasilense,0,Effector
+HopAW1,A.brasilense,0,Effector
+HopP1,A.brasilense,1,Effector
+AvrBs2,A.brasilense,0,Effector
+AvrA,A.brasilense,0,Effector
+AvrRxv,A.brasilense,0,Effector
+AvrRpm1,A.brasilense,0,Effector
+AvrXccE1,A.brasilense,0,Effector
+AvrRpt2,A.brasilense,0,Effector
+AvrBs3,A.brasilense,0,Effector
+AvrE1,A.brasilense,0,Effector
+AvrB3,A.brasilense,0,Effector
+AvrXccB,A.brasilense,0,Effector
+DspA/E,A.brasilense,0,Effector
+DspF,A.brasilense,0,Effector
+Rsc3369,A.brasilense,0,Effector
+MxiE,A.brasilense,1,Effector
+ExoU,A.brasilense,0,Effector
+T2SS,A.brasilense,0,T2SS
+T3SS,A.brasilense,0,T3SS
+T4SS,A.brasilense,0,T4SS
+T6SS,A.brasilense,0,T6SS
+Flagella,A.brasilense,1,Flagella
+Pili,A.brasilense,1,Pili
+Pectate disaccharide-lyase,M.mesophilicum,0,PCWDE
+Pectate lyase,M.mesophilicum,0,PCWDE
+Rhanmogalacturonan endolyase,M.mesophilicum,0,PCWDE
+Pectin lyase,M.mesophilicum,0,PCWDE
+Cellulase,M.mesophilicum,1,PCWDE
+beta-xylanase,M.mesophilicum,1,PCWDE
+Arabinosidase,M.mesophilicum,0,PCWDE
+beta-galactosidase,M.mesophilicum,0,PCWDE
+beta-xylosidase,M.mesophilicum,0,PCWDE
+beta-glucosidase,M.mesophilicum,0,PCWDE
+alpha-galactosidase,M.mesophilicum,1,PCWDE
+Galactanase,M.mesophilicum,0,PCWDE
+Polyglacturonase,M.mesophilicum,0,PCWDE
+Avicelase,M.mesophilicum,0,PCWDE
+alpha-L-arabinosidase,M.mesophilicum,0,PCWDE
+alpha-glucuronidase,M.mesophilicum,0,PCWDE
+Harpin(HrpN),M.mesophilicum,0,Harpin
+Harpin(HrpW),M.mesophilicum,0,Harpin
+Harpin(HrpA2),M.mesophilicum,0,Harpin
+Harpin(HrpZ1),M.mesophilicum,0,Harpin
+Harpin(HrpK1),M.mesophilicum,0,Harpin
+Harpin(PopW),M.mesophilicum,0,Harpin
+Harpin(HrcR),M.mesophilicum,0,Harpin
+Harpin(HopAK1),M.mesophilicum,0,Harpin
+HopAN1,M.mesophilicum,1,Effector
+HopAC1,M.mesophilicum,0,Effector
+HopAG1,M.mesophilicum,0,Effector
+HopAH1,M.mesophilicum,0,Effector
+HopAI1,M.mesophilicum,0,Effector
+HopJ1,M.mesophilicum,0,Effector
+HopAA1,M.mesophilicum,0,Effector
+HopM1,M.mesophilicum,0,Effector
+HopX1,M.mesophilicum,0,Effector
+HopQ1,M.mesophilicum,0,Effector
+HopF2,M.mesophilicum,0,Effector
+HopV1,M.mesophilicum,0,Effector
+HopR1,M.mesophilicum,0,Effector
+HopZ3,M.mesophilicum,0,Effector
+HopH1,M.mesophilicum,0,Effector
+HopL1,M.mesophilicum,0,Effector
+HopAH2,M.mesophilicum,0,Effector
+HopAJ1,M.mesophilicum,0,Effector
+HopPtoC,M.mesophilicum,0,Effector
+HopAV1,M.mesophilicum,0,Effector
+HopAF1,M.mesophilicum,0,Effector
+HopI1,M.mesophilicum,1,Effector
+HopAE1,M.mesophilicum,0,Effector
+HopAJ2,M.mesophilicum,1,Effector
+HopAB1,M.mesophilicum,0,Effector
+HopE1,M.mesophilicum,0,Effector
+HopAW1,M.mesophilicum,0,Effector
+HopP1,M.mesophilicum,0,Effector
+AvrBs2,M.mesophilicum,1,Effector
+AvrA,M.mesophilicum,0,Effector
+AvrRxv,M.mesophilicum,0,Effector
+AvrRpm1,M.mesophilicum,0,Effector
+AvrXccE1,M.mesophilicum,0,Effector
+AvrRpt2,M.mesophilicum,0,Effector
+AvrBs3,M.mesophilicum,0,Effector
+AvrE1,M.mesophilicum,0,Effector
+AvrB3,M.mesophilicum,0,Effector
+AvrXccB,M.mesophilicum,0,Effector
+DspA/E,M.mesophilicum,0,Effector
+DspF,M.mesophilicum,0,Effector
+Rsc3369,M.mesophilicum,0,Effector
+MxiE,M.mesophilicum,0,Effector
+ExoU,M.mesophilicum,0,Effector
+T2SS,M.mesophilicum,0,T2SS
+T3SS,M.mesophilicum,0,T3SS
+T4SS,M.mesophilicum,0,T4SS
+T6SS,M.mesophilicum,0,T6SS
+Flagella,M.mesophilicum,1,Flagella
+Pili,M.mesophilicum,1,Pili
+Pectate disaccharide-lyase,A.tumefaciens,0,PCWDE
+Pectate lyase,A.tumefaciens,0,PCWDE
+Rhanmogalacturonan endolyase,A.tumefaciens,0,PCWDE
+Pectin lyase,A.tumefaciens,0,PCWDE
+Cellulase,A.tumefaciens,1,PCWDE
+beta-xylanase,A.tumefaciens,1,PCWDE
+Arabinosidase,A.tumefaciens,0,PCWDE
+beta-galactosidase,A.tumefaciens,0,PCWDE
+beta-xylosidase,A.tumefaciens,0,PCWDE
+beta-glucosidase,A.tumefaciens,1,PCWDE
+alpha-galactosidase,A.tumefaciens,1,PCWDE
+Galactanase,A.tumefaciens,0,PCWDE
+Polyglacturonase,A.tumefaciens,0,PCWDE
+Avicelase,A.tumefaciens,0,PCWDE
+alpha-L-arabinosidase,A.tumefaciens,0,PCWDE
+alpha-glucuronidase,A.tumefaciens,0,PCWDE
+Harpin(HrpN),A.tumefaciens,0,Harpin
+Harpin(HrpW),A.tumefaciens,0,Harpin
+Harpin(HrpA2),A.tumefaciens,0,Harpin
+Harpin(HrpZ1),A.tumefaciens,0,Harpin
+Harpin(HrpK1),A.tumefaciens,0,Harpin
+Harpin(PopW),A.tumefaciens,0,Harpin
+Harpin(HrcR),A.tumefaciens,0,Harpin
+Harpin(HopAK1),A.tumefaciens,0,Harpin
+HopAN1,A.tumefaciens,1,Effector
+HopAC1,A.tumefaciens,0,Effector
+HopAG1,A.tumefaciens,0,Effector
+HopAH1,A.tumefaciens,0,Effector
+HopAI1,A.tumefaciens,0,Effector
+HopJ1,A.tumefaciens,0,Effector
+HopAA1,A.tumefaciens,0,Effector
+HopM1,A.tumefaciens,0,Effector
+HopX1,A.tumefaciens,0,Effector
+HopQ1,A.tumefaciens,0,Effector
+HopF2,A.tumefaciens,0,Effector
+HopV1,A.tumefaciens,0,Effector
+HopR1,A.tumefaciens,0,Effector
+HopZ3,A.tumefaciens,0,Effector
+HopH1,A.tumefaciens,0,Effector
+HopL1,A.tumefaciens,0,Effector
+HopAH2,A.tumefaciens,0,Effector
+HopAJ1,A.tumefaciens,0,Effector
+HopPtoC,A.tumefaciens,0,Effector
+HopAV1,A.tumefaciens,0,Effector
+HopAF1,A.tumefaciens,0,Effector
+HopI1,A.tumefaciens,1,Effector
+HopAE1,A.tumefaciens,0,Effector
+HopAJ2,A.tumefaciens,1,Effector
+HopAB1,A.tumefaciens,0,Effector
+HopE1,A.tumefaciens,0,Effector
+HopAW1,A.tumefaciens,0,Effector
+HopP1,A.tumefaciens,0,Effector
+AvrBs2,A.tumefaciens,1,Effector
+AvrA,A.tumefaciens,0,Effector
+AvrRxv,A.tumefaciens,0,Effector
+AvrRpm1,A.tumefaciens,0,Effector
+AvrXccE1,A.tumefaciens,0,Effector
+AvrRpt2,A.tumefaciens,0,Effector
+AvrBs3,A.tumefaciens,0,Effector
+AvrE1,A.tumefaciens,0,Effector
+AvrB3,A.tumefaciens,0,Effector
+AvrXccB,A.tumefaciens,0,Effector
+DspA/E,A.tumefaciens,0,Effector
+DspF,A.tumefaciens,0,Effector
+Rsc3369,A.tumefaciens,0,Effector
+MxiE,A.tumefaciens,0,Effector
+ExoU,A.tumefaciens,0,Effector
+T2SS,A.tumefaciens,0,T2SS
+T3SS,A.tumefaciens,0,T3SS
+T4SS,A.tumefaciens,1,T4SS
+T6SS,A.tumefaciens,1,T6SS
+Flagella,A.tumefaciens,1,Flagella
+Pili,A.tumefaciens,1,Pili
+Pectate disaccharide-lyase,R.viciae,0,PCWDE
+Pectate lyase,R.viciae,0,PCWDE
+Rhanmogalacturonan endolyase,R.viciae,0,PCWDE
+Pectin lyase,R.viciae,0,PCWDE
+Cellulase,R.viciae,1,PCWDE
+beta-xylanase,R.viciae,1,PCWDE
+Arabinosidase,R.viciae,1,PCWDE
+beta-galactosidase,R.viciae,1,PCWDE
+beta-xylosidase,R.viciae,1,PCWDE
+beta-glucosidase,R.viciae,1,PCWDE
+alpha-galactosidase,R.viciae,1,PCWDE
+Galactanase,R.viciae,0,PCWDE
+Polyglacturonase,R.viciae,0,PCWDE
+Avicelase,R.viciae,0,PCWDE
+alpha-L-arabinosidase,R.viciae,0,PCWDE
+alpha-glucuronidase,R.viciae,0,PCWDE
+Harpin(HrpN),R.viciae,0,Harpin
+Harpin(HrpW),R.viciae,0,Harpin
+Harpin(HrpA2),R.viciae,0,Harpin
+Harpin(HrpZ1),R.viciae,0,Harpin
+Harpin(HrpK1),R.viciae,0,Harpin
+Harpin(PopW),R.viciae,0,Harpin
+Harpin(HrcR),R.viciae,0,Harpin
+Harpin(HopAK1),R.viciae,0,Harpin
+HopAN1,R.viciae,1,Effector
+HopAC1,R.viciae,0,Effector
+HopAG1,R.viciae,1,Effector
+HopAH1,R.viciae,0,Effector
+HopAI1,R.viciae,0,Effector
+HopJ1,R.viciae,0,Effector
+HopAA1,R.viciae,0,Effector
+HopM1,R.viciae,0,Effector
+HopX1,R.viciae,0,Effector
+HopQ1,R.viciae,0,Effector
+HopF2,R.viciae,0,Effector
+HopV1,R.viciae,0,Effector
+HopR1,R.viciae,0,Effector
+HopZ3,R.viciae,0,Effector
+HopH1,R.viciae,0,Effector
+HopL1,R.viciae,0,Effector
+HopAH2,R.viciae,0,Effector
+HopAJ1,R.viciae,0,Effector
+HopPtoC,R.viciae,0,Effector
+HopAV1,R.viciae,0,Effector
+HopAF1,R.viciae,0,Effector
+HopI1,R.viciae,1,Effector
+HopAE1,R.viciae,0,Effector
+HopAJ2,R.viciae,1,Effector
+HopAB1,R.viciae,0,Effector
+HopE1,R.viciae,0,Effector
+HopAW1,R.viciae,0,Effector
+HopP1,R.viciae,0,Effector
+AvrBs2,R.viciae,1,Effector
+AvrA,R.viciae,0,Effector
+AvrRxv,R.viciae,0,Effector
+AvrRpm1,R.viciae,0,Effector
+AvrXccE1,R.viciae,0,Effector
+AvrRpt2,R.viciae,0,Effector
+AvrBs3,R.viciae,0,Effector
+AvrE1,R.viciae,0,Effector
+AvrB3,R.viciae,0,Effector
+AvrXccB,R.viciae,0,Effector
+DspA/E,R.viciae,0,Effector
+DspF,R.viciae,0,Effector
+Rsc3369,R.viciae,0,Effector
+MxiE,R.viciae,0,Effector
+ExoU,R.viciae,0,Effector
+T2SS,R.viciae,0,T2SS
+T3SS,R.viciae,0,T3SS
+T4SS,R.viciae,1,T4SS
+T6SS,R.viciae,1,T6SS
+Flagella,R.viciae,1,Flagella
+Pili,R.viciae,1,Pili
+Pectate disaccharide-lyase,R.trifolii,0,PCWDE
+Pectate lyase,R.trifolii,0,PCWDE
+Rhanmogalacturonan endolyase,R.trifolii,0,PCWDE
+Pectin lyase,R.trifolii,0,PCWDE
+Cellulase,R.trifolii,1,PCWDE
+beta-xylanase,R.trifolii,1,PCWDE
+Arabinosidase,R.trifolii,1,PCWDE
+beta-galactosidase,R.trifolii,1,PCWDE
+beta-xylosidase,R.trifolii,1,PCWDE
+beta-glucosidase,R.trifolii,0,PCWDE
+alpha-galactosidase,R.trifolii,1,PCWDE
+Galactanase,R.trifolii,0,PCWDE
+Polyglacturonase,R.trifolii,0,PCWDE
+Avicelase,R.trifolii,0,PCWDE
+alpha-L-arabinosidase,R.trifolii,0,PCWDE
+alpha-glucuronidase,R.trifolii,0,PCWDE
+Harpin(HrpN),R.trifolii,0,Harpin
+Harpin(HrpW),R.trifolii,0,Harpin
+Harpin(HrpA2),R.trifolii,0,Harpin
+Harpin(HrpZ1),R.trifolii,0,Harpin
+Harpin(HrpK1),R.trifolii,0,Harpin
+Harpin(PopW),R.trifolii,0,Harpin
+Harpin(HrcR),R.trifolii,0,Harpin
+Harpin(HopAK1),R.trifolii,0,Harpin
+HopAN1,R.trifolii,1,Effector
+HopAC1,R.trifolii,0,Effector
+HopAG1,R.trifolii,1,Effector
+HopAH1,R.trifolii,0,Effector
+HopAI1,R.trifolii,0,Effector
+HopJ1,R.trifolii,0,Effector
+HopAA1,R.trifolii,0,Effector
+HopM1,R.trifolii,0,Effector
+HopX1,R.trifolii,0,Effector
+HopQ1,R.trifolii,0,Effector
+HopF2,R.trifolii,0,Effector
+HopV1,R.trifolii,0,Effector
+HopR1,R.trifolii,0,Effector
+HopZ3,R.trifolii,0,Effector
+HopH1,R.trifolii,0,Effector
+HopL1,R.trifolii,0,Effector
+HopAH2,R.trifolii,0,Effector
+HopAJ1,R.trifolii,0,Effector
+HopPtoC,R.trifolii,0,Effector
+HopAV1,R.trifolii,0,Effector
+HopAF1,R.trifolii,0,Effector
+HopI1,R.trifolii,1,Effector
+HopAE1,R.trifolii,0,Effector
+HopAJ2,R.trifolii,1,Effector
+HopAB1,R.trifolii,0,Effector
+HopE1,R.trifolii,0,Effector
+HopAW1,R.trifolii,0,Effector
+HopP1,R.trifolii,0,Effector
+AvrBs2,R.trifolii,0,Effector
+AvrA,R.trifolii,0,Effector
+AvrRxv,R.trifolii,0,Effector
+AvrRpm1,R.trifolii,0,Effector
+AvrXccE1,R.trifolii,0,Effector
+AvrRpt2,R.trifolii,0,Effector
+AvrBs3,R.trifolii,0,Effector
+AvrE1,R.trifolii,0,Effector
+AvrB3,R.trifolii,0,Effector
+AvrXccB,R.trifolii,0,Effector
+DspA/E,R.trifolii,0,Effector
+DspF,R.trifolii,0,Effector
+Rsc3369,R.trifolii,0,Effector
+MxiE,R.trifolii,0,Effector
+ExoU,R.trifolii,0,Effector
+T2SS,R.trifolii,0,T2SS
+T3SS,R.trifolii,2,T3SS
+T4SS,R.trifolii,2,T4SS
+T6SS,R.trifolii,1,T6SS
+Flagella,R.trifolii,1,Flagella
+Pili,R.trifolii,1,Pili
+Pectate disaccharide-lyase,H.seropedicae,0,PCWDE
+Pectate lyase,H.seropedicae,0,PCWDE
+Rhanmogalacturonan endolyase,H.seropedicae,0,PCWDE
+Pectin lyase,H.seropedicae,0,PCWDE
+Cellulase,H.seropedicae,0,PCWDE
+beta-xylanase,H.seropedicae,0,PCWDE
+Arabinosidase,H.seropedicae,0,PCWDE
+beta-galactosidase,H.seropedicae,1,PCWDE
+beta-xylosidase,H.seropedicae,0,PCWDE
+beta-glucosidase,H.seropedicae,1,PCWDE
+alpha-galactosidase,H.seropedicae,0,PCWDE
+Galactanase,H.seropedicae,0,PCWDE
+Polyglacturonase,H.seropedicae,0,PCWDE
+Avicelase,H.seropedicae,0,PCWDE
+alpha-L-arabinosidase,H.seropedicae,0,PCWDE
+alpha-glucuronidase,H.seropedicae,0,PCWDE
+Harpin(HrpN),H.seropedicae,0,Harpin
+Harpin(HrpW),H.seropedicae,0,Harpin
+Harpin(HrpA2),H.seropedicae,0,Harpin
+Harpin(HrpZ1),H.seropedicae,0,Harpin
+Harpin(HrpK1),H.seropedicae,0,Harpin
+Harpin(PopW),H.seropedicae,0,Harpin
+Harpin(HrcR),H.seropedicae,0,Harpin
+Harpin(HopAK1),H.seropedicae,0,Harpin
+HopAN1,H.seropedicae,1,Effector
+HopAC1,H.seropedicae,0,Effector
+HopAG1,H.seropedicae,0,Effector
+HopAH1,H.seropedicae,0,Effector
+HopAI1,H.seropedicae,0,Effector
+HopJ1,H.seropedicae,0,Effector
+HopAA1,H.seropedicae,0,Effector
+HopM1,H.seropedicae,0,Effector
+HopX1,H.seropedicae,0,Effector
+HopQ1,H.seropedicae,0,Effector
+HopF2,H.seropedicae,0,Effector
+HopV1,H.seropedicae,0,Effector
+HopR1,H.seropedicae,0,Effector
+HopZ3,H.seropedicae,0,Effector
+HopH1,H.seropedicae,0,Effector
+HopL1,H.seropedicae,0,Effector
+HopAH2,H.seropedicae,0,Effector
+HopAJ1,H.seropedicae,0,Effector
+HopPtoC,H.seropedicae,0,Effector
+HopAV1,H.seropedicae,0,Effector
+HopAF1,H.seropedicae,0,Effector
+HopI1,H.seropedicae,1,Effector
+HopAE1,H.seropedicae,0,Effector
+HopAJ2,H.seropedicae,0,Effector
+HopAB1,H.seropedicae,0,Effector
+HopE1,H.seropedicae,0,Effector
+HopAW1,H.seropedicae,0,Effector
+HopP1,H.seropedicae,0,Effector
+AvrBs2,H.seropedicae,1,Effector
+AvrA,H.seropedicae,0,Effector
+AvrRxv,H.seropedicae,0,Effector
+AvrRpm1,H.seropedicae,0,Effector
+AvrXccE1,H.seropedicae,0,Effector
+AvrRpt2,H.seropedicae,0,Effector
+AvrBs3,H.seropedicae,0,Effector
+AvrE1,H.seropedicae,0,Effector
+AvrB3,H.seropedicae,0,Effector
+AvrXccB,H.seropedicae,0,Effector
+DspA/E,H.seropedicae,0,Effector
+DspF,H.seropedicae,0,Effector
+Rsc3369,H.seropedicae,0,Effector
+MxiE,H.seropedicae,0,Effector
+ExoU,H.seropedicae,1,Effector
+T2SS,H.seropedicae,0,T2SS
+T3SS,H.seropedicae,1,T3SS
+T4SS,H.seropedicae,0,T4SS
+T6SS,H.seropedicae,1,T6SS
+Flagella,H.seropedicae,1,Flagella
+Pili,H.seropedicae,1,Pili
+Pectate disaccharide-lyase,X.fastidiosa,0,PCWDE
+Pectate lyase,X.fastidiosa,0,PCWDE
+Rhanmogalacturonan endolyase,X.fastidiosa,0,PCWDE
+Pectin lyase,X.fastidiosa,0,PCWDE
+Cellulase,X.fastidiosa,1,PCWDE
+beta-xylanase,X.fastidiosa,0,PCWDE
+Arabinosidase,X.fastidiosa,0,PCWDE
+beta-galactosidase,X.fastidiosa,0,PCWDE
+beta-xylosidase,X.fastidiosa,0,PCWDE
+beta-glucosidase,X.fastidiosa,0,PCWDE
+alpha-galactosidase,X.fastidiosa,0,PCWDE
+Galactanase,X.fastidiosa,0,PCWDE
+Polyglacturonase,X.fastidiosa,1,PCWDE
+Avicelase,X.fastidiosa,1,PCWDE
+alpha-L-arabinosidase,X.fastidiosa,0,PCWDE
+alpha-glucuronidase,X.fastidiosa,0,PCWDE
+Harpin(HrpN),X.fastidiosa,0,Harpin
+Harpin(HrpW),X.fastidiosa,0,Harpin
+Harpin(HrpA2),X.fastidiosa,0,Harpin
+Harpin(HrpZ1),X.fastidiosa,0,Harpin
+Harpin(HrpK1),X.fastidiosa,0,Harpin
+Harpin(PopW),X.fastidiosa,0,Harpin
+Harpin(HrcR),X.fastidiosa,0,Harpin
+Harpin(HopAK1),X.fastidiosa,0,Harpin
+HopAN1,X.fastidiosa,0,Effector
+HopAC1,X.fastidiosa,0,Effector
+HopAG1,X.fastidiosa,0,Effector
+HopAH1,X.fastidiosa,0,Effector
+HopAI1,X.fastidiosa,0,Effector
+HopJ1,X.fastidiosa,0,Effector
+HopAA1,X.fastidiosa,0,Effector
+HopM1,X.fastidiosa,0,Effector
+HopX1,X.fastidiosa,0,Effector
+HopQ1,X.fastidiosa,0,Effector
+HopF2,X.fastidiosa,0,Effector
+HopV1,X.fastidiosa,0,Effector
+HopR1,X.fastidiosa,0,Effector
+HopZ3,X.fastidiosa,0,Effector
+HopH1,X.fastidiosa,0,Effector
+HopL1,X.fastidiosa,0,Effector
+HopAH2,X.fastidiosa,0,Effector
+HopAJ1,X.fastidiosa,0,Effector
+HopPtoC,X.fastidiosa,0,Effector
+HopAV1,X.fastidiosa,0,Effector
+HopAF1,X.fastidiosa,0,Effector
+HopI1,X.fastidiosa,1,Effector
+HopAE1,X.fastidiosa,0,Effector
+HopAJ2,X.fastidiosa,1,Effector
+HopAB1,X.fastidiosa,0,Effector
+HopE1,X.fastidiosa,0,Effector
+HopAW1,X.fastidiosa,0,Effector
+HopP1,X.fastidiosa,0,Effector
+AvrBs2,X.fastidiosa,0,Effector
+AvrA,X.fastidiosa,0,Effector
+AvrRxv,X.fastidiosa,0,Effector
+AvrRpm1,X.fastidiosa,0,Effector
+AvrXccE1,X.fastidiosa,0,Effector
+AvrRpt2,X.fastidiosa,0,Effector
+AvrBs3,X.fastidiosa,0,Effector
+AvrE1,X.fastidiosa,0,Effector
+AvrB3,X.fastidiosa,0,Effector
+AvrXccB,X.fastidiosa,0,Effector
+DspA/E,X.fastidiosa,0,Effector
+DspF,X.fastidiosa,0,Effector
+Rsc3369,X.fastidiosa,0,Effector
+MxiE,X.fastidiosa,0,Effector
+ExoU,X.fastidiosa,1,Effector
+T2SS,X.fastidiosa,1,T2SS
+T3SS,X.fastidiosa,0,T3SS
+T4SS,X.fastidiosa,2,T4SS
+T6SS,X.fastidiosa,0,T6SS
+Flagella,X.fastidiosa,2,Flagella
+Pili,X.fastidiosa,1,Pili
+Pectate disaccharide-lyase,R.solanacearum,0,PCWDE
+Pectate lyase,R.solanacearum,1,PCWDE
+Rhanmogalacturonan endolyase,R.solanacearum,0,PCWDE
+Pectin lyase,R.solanacearum,1,PCWDE
+Cellulase,R.solanacearum,1,PCWDE
+beta-xylanase,R.solanacearum,0,PCWDE
+Arabinosidase,R.solanacearum,0,PCWDE
+beta-galactosidase,R.solanacearum,0,PCWDE
+beta-xylosidase,R.solanacearum,0,PCWDE
+beta-glucosidase,R.solanacearum,0,PCWDE
+alpha-galactosidase,R.solanacearum,0,PCWDE
+Galactanase,R.solanacearum,0,PCWDE
+Polyglacturonase,R.solanacearum,1,PCWDE
+Avicelase,R.solanacearum,1,PCWDE
+alpha-L-arabinosidase,R.solanacearum,0,PCWDE
+alpha-glucuronidase,R.solanacearum,0,PCWDE
+Harpin(HrpN),R.solanacearum,0,Harpin
+Harpin(HrpW),R.solanacearum,0,Harpin
+Harpin(HrpA2),R.solanacearum,0,Harpin
+Harpin(HrpZ1),R.solanacearum,0,Harpin
+Harpin(HrpK1),R.solanacearum,0,Harpin
+Harpin(PopW),R.solanacearum,1,Harpin
+Harpin(HrcR),R.solanacearum,0,Harpin
+Harpin(HopAK1),R.solanacearum,0,Harpin
+HopAN1,R.solanacearum,0,Effector
+HopAC1,R.solanacearum,0,Effector
+HopAG1,R.solanacearum,0,Effector
+HopAH1,R.solanacearum,0,Effector
+HopAI1,R.solanacearum,0,Effector
+HopJ1,R.solanacearum,0,Effector
+HopAA1,R.solanacearum,0,Effector
+HopM1,R.solanacearum,0,Effector
+HopX1,R.solanacearum,0,Effector
+HopQ1,R.solanacearum,0,Effector
+HopF2,R.solanacearum,0,Effector
+HopV1,R.solanacearum,0,Effector
+HopR1,R.solanacearum,0,Effector
+HopZ3,R.solanacearum,0,Effector
+HopH1,R.solanacearum,0,Effector
+HopL1,R.solanacearum,0,Effector
+HopAH2,R.solanacearum,0,Effector
+HopAJ1,R.solanacearum,0,Effector
+HopPtoC,R.solanacearum,0,Effector
+HopAV1,R.solanacearum,1,Effector
+HopAF1,R.solanacearum,0,Effector
+HopI1,R.solanacearum,0,Effector
+HopAE1,R.solanacearum,0,Effector
+HopAJ2,R.solanacearum,1,Effector
+HopAB1,R.solanacearum,0,Effector
+HopE1,R.solanacearum,0,Effector
+HopAW1,R.solanacearum,0,Effector
+HopP1,R.solanacearum,0,Effector
+AvrBs2,R.solanacearum,1,Effector
+AvrA,R.solanacearum,1,Effector
+AvrRxv,R.solanacearum,1,Effector
+AvrRpm1,R.solanacearum,1,Effector
+AvrXccE1,R.solanacearum,0,Effector
+AvrRpt2,R.solanacearum,0,Effector
+AvrBs3,R.solanacearum,0,Effector
+AvrE1,R.solanacearum,0,Effector
+AvrB3,R.solanacearum,0,Effector
+AvrXccB,R.solanacearum,0,Effector
+DspA/E,R.solanacearum,0,Effector
+DspF,R.solanacearum,0,Effector
+Rsc3369,R.solanacearum,1,Effector
+MxiE,R.solanacearum,1,Effector
+ExoU,R.solanacearum,1,Effector
+T2SS,R.solanacearum,1,T2SS
+T3SS,R.solanacearum,1,T3SS
+T4SS,R.solanacearum,1,T4SS
+T6SS,R.solanacearum,1,T6SS
+Flagella,R.solanacearum,1,Flagella
+Pili,R.solanacearum,1,Pili
+Pectate disaccharide-lyase,L.britannica,0,PCWDE
+Pectate lyase,L.britannica,1,PCWDE
+Rhanmogalacturonan endolyase,L.britannica,0,PCWDE
+Pectin lyase,L.britannica,1,PCWDE
+Cellulase,L.britannica,1,PCWDE
+beta-xylanase,L.britannica,0,PCWDE
+Arabinosidase,L.britannica,1,PCWDE
+beta-galactosidase,L.britannica,0,PCWDE
+beta-xylosidase,L.britannica,0,PCWDE
+beta-glucosidase,L.britannica,1,PCWDE
+alpha-galactosidase,L.britannica,1,PCWDE
+Galactanase,L.britannica,0,PCWDE
+Polyglacturonase,L.britannica,0,PCWDE
+Avicelase,L.britannica,0,PCWDE
+alpha-glucuronidase,L.britannica,0,PCWDE
+alpha-L-arabinosidase,L.britannica,0,PCWDE
+Harpin(HrpN),L.britannica,0,Harpin
+Harpin(HrpW),L.britannica,1,Harpin
+Harpin(HrpA2),L.britannica,1,Harpin
+Harpin(HrpZ1),L.britannica,0,Harpin
+Harpin(HrpK1),L.britannica,0,Harpin
+Harpin(PopW),L.britannica,0,Harpin
+Harpin(HrcR),L.britannica,1,Harpin
+Harpin(HopAK1),L.britannica,0,Harpin
+HopAN1,L.britannica,0,Effector
+HopAC1,L.britannica,0,Effector
+HopAG1,L.britannica,0,Effector
+HopAH1,L.britannica,0,Effector
+HopAI1,L.britannica,0,Effector
+HopJ1,L.britannica,0,Effector
+HopAA1,L.britannica,0,Effector
+HopM1,L.britannica,0,Effector
+HopX1,L.britannica,0,Effector
+HopQ1,L.britannica,0,Effector
+HopF2,L.britannica,0,Effector
+HopV1,L.britannica,0,Effector
+HopR1,L.britannica,0,Effector
+HopZ3,L.britannica,0,Effector
+HopH1,L.britannica,0,Effector
+HopL1,L.britannica,1,Effector
+HopAH2,L.britannica,0,Effector
+HopAJ1,L.britannica,0,Effector
+HopPtoC,L.britannica,0,Effector
+HopAV1,L.britannica,0,Effector
+HopAF1,L.britannica,0,Effector
+HopI1,L.britannica,1,Effector
+HopAE1,L.britannica,0,Effector
+HopAJ2,L.britannica,0,Effector
+HopAB1,L.britannica,0,Effector
+HopE1,L.britannica,0,Effector
+HopAW1,L.britannica,0,Effector
+HopP1,L.britannica,0,Effector
+AvrBs2,L.britannica,0,Effector
+AvrA,L.britannica,0,Effector
+AvrRxv,L.britannica,0,Effector
+AvrRpm1,L.britannica,0,Effector
+AvrXccE1,L.britannica,0,Effector
+AvrRpt2,L.britannica,0,Effector
+AvrBs3,L.britannica,0,Effector
+AvrE1,L.britannica,0,Effector
+AvrB3,L.britannica,0,Effector
+AvrXccB,L.britannica,0,Effector
+DspA/E,L.britannica,1,Effector
+DspF,L.britannica,1,Effector
+Rsc3369,L.britannica,0,Effector
+MxiE,L.britannica,1,Effector
+ExoU,L.britannica,0,Effector
+T2SS,L.britannica,1,T2SS
+T3SS,L.britannica,1,T3SS
+T4SS,L.britannica,0,T4SS
+T6SS,L.britannica,1,T6SS
+Flagella,L.britannica,1,Flagella
+Pili,L.britannica,1,Pili
+Pectate disaccharide-lyase,E.amylovora,0,PCWDE
+Pectate lyase,E.amylovora,1,PCWDE
+Rhanmogalacturonan endolyase,E.amylovora,0,PCWDE
+Pectin lyase,E.amylovora,1,PCWDE
+Cellulase,E.amylovora,1,PCWDE
+beta-xylanase,E.amylovora,0,PCWDE
+Arabinosidase,E.amylovora,0,PCWDE
+beta-galactosidase,E.amylovora,1,PCWDE
+beta-xylosidase,E.amylovora,0,PCWDE
+beta-glucosidase,E.amylovora,1,PCWDE
+alpha-galactosidase,E.amylovora,0,PCWDE
+Galactanase,E.amylovora,0,PCWDE
+Polyglacturonase,E.amylovora,1,PCWDE
+Avicelase,E.amylovora,0,PCWDE
+alpha-L-arabinosidase,E.amylovora,0,PCWDE
+alpha-glucuronidase,E.amylovora,0,PCWDE
+Harpin(HrpN),E.amylovora,0,Harpin
+Harpin(HrpW),E.amylovora,1,Harpin
+Harpin(HrpA2),E.amylovora,1,Harpin
+Harpin(HrpZ1),E.amylovora,0,Harpin
+Harpin(HrpK1),E.amylovora,0,Harpin
+Harpin(PopW),E.amylovora,0,Harpin
+Harpin(HrcR),E.amylovora,1,Harpin
+Harpin(HopAK1),E.amylovora,1,Harpin
+HopAN1,E.amylovora,1,Effector
+HopAC1,E.amylovora,1,Effector
+HopAG1,E.amylovora,0,Effector
+HopAH1,E.amylovora,0,Effector
+HopAI1,E.amylovora,0,Effector
+HopJ1,E.amylovora,0,Effector
+HopAA1,E.amylovora,0,Effector
+HopM1,E.amylovora,0,Effector
+HopX1,E.amylovora,0,Effector
+HopQ1,E.amylovora,0,Effector
+HopF2,E.amylovora,0,Effector
+HopV1,E.amylovora,0,Effector
+HopR1,E.amylovora,0,Effector
+HopZ3,E.amylovora,1,Effector
+HopH1,E.amylovora,0,Effector
+HopL1,E.amylovora,1,Effector
+HopAH2,E.amylovora,0,Effector
+HopAJ1,E.amylovora,0,Effector
+HopPtoC,E.amylovora,1,Effector
+HopAV1,E.amylovora,0,Effector
+HopAF1,E.amylovora,0,Effector
+HopI1,E.amylovora,1,Effector
+HopAE1,E.amylovora,0,Effector
+HopAJ2,E.amylovora,1,Effector
+HopAB1,E.amylovora,0,Effector
+HopE1,E.amylovora,0,Effector
+HopAW1,E.amylovora,0,Effector
+HopP1,E.amylovora,0,Effector
+AvrBs2,E.amylovora,0,Effector
+AvrA,E.amylovora,0,Effector
+AvrRxv,E.amylovora,0,Effector
+AvrRpm1,E.amylovora,0,Effector
+AvrXccE1,E.amylovora,0,Effector
+AvrRpt2,E.amylovora,1,Effector
+AvrBs3,E.amylovora,0,Effector
+AvrE1,E.amylovora,0,Effector
+AvrB3,E.amylovora,0,Effector
+AvrXccB,E.amylovora,0,Effector
+DspA/E,E.amylovora,1,Effector
+DspF,E.amylovora,1,Effector
+Rsc3369,E.amylovora,0,Effector
+MxiE,E.amylovora,0,Effector
+ExoU,E.amylovora,0,Effector
+T2SS,E.amylovora,0,T2SS
+T3SS,E.amylovora,1,T3SS
+T4SS,E.amylovora,0,T4SS
+T6SS,E.amylovora,2,T6SS
+Flagella,E.amylovora,1,Flagella
+Pili,E.amylovora,1,Pili
+Pectate disaccharide-lyase,P.carotovorum,1,PCWDE
+Pectate lyase,P.carotovorum,1,PCWDE
+Rhanmogalacturonan endolyase,P.carotovorum,1,PCWDE
+Pectin lyase,P.carotovorum,1,PCWDE
+Cellulase,P.carotovorum,1,PCWDE
+beta-xylanase,P.carotovorum,0,PCWDE
+Arabinosidase,P.carotovorum,0,PCWDE
+beta-galactosidase,P.carotovorum,1,PCWDE
+beta-xylosidase,P.carotovorum,1,PCWDE
+beta-glucosidase,P.carotovorum,1,PCWDE
+alpha-galactosidase,P.carotovorum,1,PCWDE
+Galactanase,P.carotovorum,1,PCWDE
+Polyglacturonase,P.carotovorum,0,PCWDE
+Avicelase,P.carotovorum,0,PCWDE
+alpha-L-arabinosidase,P.carotovorum,0,PCWDE
+alpha-glucuronidase,P.carotovorum,0,PCWDE
+Harpin(HrpN),P.carotovorum,1,Harpin
+Harpin(HrpW),P.carotovorum,1,Harpin
+Harpin(HrpA2),P.carotovorum,0,Harpin
+Harpin(HrpZ1),P.carotovorum,0,Harpin
+Harpin(HrpK1),P.carotovorum,1,Harpin
+Harpin(PopW),P.carotovorum,0,Harpin
+Harpin(HrcR),P.carotovorum,0,Harpin
+Harpin(HopAK1),P.carotovorum,1,Harpin
+HopAN1,P.carotovorum,1,Effector
+HopAC1,P.carotovorum,0,Effector
+HopAG1,P.carotovorum,0,Effector
+HopAH1,P.carotovorum,0,Effector
+HopAI1,P.carotovorum,0,Effector
+HopJ1,P.carotovorum,0,Effector
+HopAA1,P.carotovorum,0,Effector
+HopM1,P.carotovorum,0,Effector
+HopX1,P.carotovorum,0,Effector
+HopQ1,P.carotovorum,0,Effector
+HopF2,P.carotovorum,0,Effector
+HopV1,P.carotovorum,0,Effector
+HopR1,P.carotovorum,0,Effector
+HopZ3,P.carotovorum,0,Effector
+HopH1,P.carotovorum,0,Effector
+HopL1,P.carotovorum,1,Effector
+HopAH2,P.carotovorum,0,Effector
+HopAJ1,P.carotovorum,0,Effector
+HopPtoC,P.carotovorum,0,Effector
+HopAV1,P.carotovorum,0,Effector
+HopAF1,P.carotovorum,0,Effector
+HopI1,P.carotovorum,1,Effector
+HopAE1,P.carotovorum,0,Effector
+HopAJ2,P.carotovorum,1,Effector
+HopAB1,P.carotovorum,0,Effector
+HopE1,P.carotovorum,0,Effector
+HopAW1,P.carotovorum,0,Effector
+HopP1,P.carotovorum,0,Effector
+AvrBs2,P.carotovorum,0,Effector
+AvrA,P.carotovorum,0,Effector
+AvrRxv,P.carotovorum,0,Effector
+AvrRpm1,P.carotovorum,0,Effector
+AvrXccE1,P.carotovorum,0,Effector
+AvrRpt2,P.carotovorum,0,Effector
+AvrBs3,P.carotovorum,0,Effector
+AvrE1,P.carotovorum,0,Effector
+AvrB3,P.carotovorum,0,Effector
+AvrXccB,P.carotovorum,0,Effector
+DspA/E,P.carotovorum,1,Effector
+DspF,P.carotovorum,0,Effector
+Rsc3369,P.carotovorum,0,Effector
+MxiE,P.carotovorum,0,Effector
+ExoU,P.carotovorum,0,Effector
+T2SS,P.carotovorum,1,T2SS
+T3SS,P.carotovorum,1,T3SS
+T4SS,P.carotovorum,2,T4SS
+T6SS,P.carotovorum,1,T6SS
+Flagella,P.carotovorum,1,Flagella
+Pili,P.carotovorum,1,Pili
+Pectate disaccharide-lyase,D.dadantii,1,PCWDE
+Pectate lyase,D.dadantii,1,PCWDE
+Rhanmogalacturonan endolyase,D.dadantii,1,PCWDE
+Pectin lyase,D.dadantii,1,PCWDE
+Cellulase,D.dadantii,1,PCWDE
+beta-xylanase,D.dadantii,0,PCWDE
+Arabinosidase,D.dadantii,0,PCWDE
+beta-galactosidase,D.dadantii,1,PCWDE
+beta-xylosidase,D.dadantii,0,PCWDE
+beta-glucosidase,D.dadantii,1,PCWDE
+alpha-galactosidase,D.dadantii,1,PCWDE
+Galactanase,D.dadantii,1,PCWDE
+Polyglacturonase,D.dadantii,0,PCWDE
+Avicelase,D.dadantii,0,PCWDE
+alpha-L-arabinosidase,D.dadantii,0,PCWDE
+alpha-glucuronidase,D.dadantii,0,PCWDE
+Harpin(HrpN),D.dadantii,1,Harpin
+Harpin(HrpW),D.dadantii,1,Harpin
+Harpin(HrpA2),D.dadantii,0,Harpin
+Harpin(HrpZ1),D.dadantii,0,Harpin
+Harpin(HrpK1),D.dadantii,1,Harpin
+Harpin(PopW),D.dadantii,0,Harpin
+Harpin(HrcR),D.dadantii,0,Harpin
+Harpin(HopAK1),D.dadantii,1,Harpin
+HopAN1,D.dadantii,0,Effector
+HopAC1,D.dadantii,0,Effector
+HopAG1,D.dadantii,0,Effector
+HopAH1,D.dadantii,0,Effector
+HopAI1,D.dadantii,0,Effector
+HopJ1,D.dadantii,0,Effector
+HopAA1,D.dadantii,0,Effector
+HopM1,D.dadantii,0,Effector
+HopX1,D.dadantii,0,Effector
+HopQ1,D.dadantii,0,Effector
+HopF2,D.dadantii,0,Effector
+HopV1,D.dadantii,0,Effector
+HopR1,D.dadantii,0,Effector
+HopZ3,D.dadantii,0,Effector
+HopH1,D.dadantii,0,Effector
+HopL1,D.dadantii,1,Effector
+HopAH2,D.dadantii,0,Effector
+HopAJ1,D.dadantii,0,Effector
+HopPtoC,D.dadantii,0,Effector
+HopAV1,D.dadantii,0,Effector
+HopAF1,D.dadantii,0,Effector
+HopI1,D.dadantii,1,Effector
+HopAE1,D.dadantii,0,Effector
+HopAJ2,D.dadantii,1,Effector
+HopAB1,D.dadantii,0,Effector
+HopE1,D.dadantii,0,Effector
+HopAW1,D.dadantii,0,Effector
+HopP1,D.dadantii,0,Effector
+AvrBs2,D.dadantii,1,Effector
+AvrA,D.dadantii,0,Effector
+AvrRxv,D.dadantii,0,Effector
+AvrRpm1,D.dadantii,0,Effector
+AvrXccE1,D.dadantii,0,Effector
+AvrRpt2,D.dadantii,0,Effector
+AvrBs3,D.dadantii,0,Effector
+AvrE1,D.dadantii,0,Effector
+AvrB3,D.dadantii,0,Effector
+AvrXccB,D.dadantii,0,Effector
+DspA/E,D.dadantii,1,Effector
+DspF,D.dadantii,1,Effector
+Rsc3369,D.dadantii,0,Effector
+MxiE,D.dadantii,1,Effector
+ExoU,D.dadantii,0,Effector
+T2SS,D.dadantii,1,T2SS
+T3SS,D.dadantii,1,T3SS
+T4SS,D.dadantii,1,T4SS
+T6SS,D.dadantii,2,T6SS
+Flagella,D.dadantii,1,Flagella
+Pili,D.dadantii,1,Pili
+Pectate disaccharide-lyase,B.goodwinii OBR1,1,PCWDE
+Pectate lyase,B.goodwinii OBR1,1,PCWDE
+Rhanmogalacturonan endolyase,B.goodwinii OBR1,0,PCWDE
+Pectin lyase,B.goodwinii OBR1,1,PCWDE
+Cellulase,B.goodwinii OBR1,1,PCWDE
+beta-xylanase,B.goodwinii OBR1,0,PCWDE
+Arabinosidase,B.goodwinii OBR1,1,PCWDE
+beta-galactosidase,B.goodwinii OBR1,0,PCWDE
+beta-xylosidase,B.goodwinii OBR1,0,PCWDE
+beta-glucosidase,B.goodwinii OBR1,1,PCWDE
+alpha-galactosidase,B.goodwinii OBR1,1,PCWDE
+Galactanase,B.goodwinii OBR1,0,PCWDE
+Polyglacturonase,B.goodwinii OBR1,0,PCWDE
+Avicelase,B.goodwinii OBR1,0,PCWDE
+alpha-L-arabinosidase,B.goodwinii OBR1,0,PCWDE
+alpha-glucuronidase,B.goodwinii OBR1,0,PCWDE
+Harpin(HrpN),B.goodwinii OBR1,1,Harpin
+Harpin(HrpW),B.goodwinii OBR1,1,Harpin
+Harpin(HrpA2),B.goodwinii OBR1,0,Harpin
+Harpin(HrpZ1),B.goodwinii OBR1,0,Harpin
+Harpin(HrpK1),B.goodwinii OBR1,0,Harpin
+Harpin(PopW),B.goodwinii OBR1,0,Harpin
+Harpin(HrcR),B.goodwinii OBR1,0,Harpin
+Harpin(HopAK1),B.goodwinii OBR1,0,Harpin
+HopAN1,B.goodwinii OBR1,1,Effector
+HopAC1,B.goodwinii OBR1,0,Effector
+HopAG1,B.goodwinii OBR1,0,Effector
+HopAH1,B.goodwinii OBR1,0,Effector
+HopAI1,B.goodwinii OBR1,0,Effector
+HopJ1,B.goodwinii OBR1,0,Effector
+HopAA1,B.goodwinii OBR1,0,Effector
+HopM1,B.goodwinii OBR1,0,Effector
+HopX1,B.goodwinii OBR1,1,Effector
+HopQ1,B.goodwinii OBR1,0,Effector
+HopF2,B.goodwinii OBR1,0,Effector
+HopV1,B.goodwinii OBR1,0,Effector
+HopR1,B.goodwinii OBR1,0,Effector
+HopZ3,B.goodwinii OBR1,0,Effector
+HopH1,B.goodwinii OBR1,0,Effector
+HopL1,B.goodwinii OBR1,1,Effector
+HopAH2,B.goodwinii OBR1,0,Effector
+HopAJ1,B.goodwinii OBR1,0,Effector
+HopPtoC,B.goodwinii OBR1,0,Effector
+HopAV1,B.goodwinii OBR1,0,Effector
+HopAF1,B.goodwinii OBR1,0,Effector
+HopI1,B.goodwinii OBR1,1,Effector
+HopAE1,B.goodwinii OBR1,0,Effector
+HopAJ2,B.goodwinii OBR1,1,Effector
+HopAB1,B.goodwinii OBR1,0,Effector
+HopE1,B.goodwinii OBR1,1,Effector
+HopAW1,B.goodwinii OBR1,1,Effector
+HopP1,B.goodwinii OBR1,0,Effector
+AvrBs2,B.goodwinii OBR1,0,Effector
+AvrA,B.goodwinii OBR1,0,Effector
+AvrRxv,B.goodwinii OBR1,1,Effector
+AvrRpm1,B.goodwinii OBR1,0,Effector
+AvrXccE1,B.goodwinii OBR1,0,Effector
+AvrRpt2,B.goodwinii OBR1,0,Effector
+AvrBs3,B.goodwinii OBR1,0,Effector
+AvrE1,B.goodwinii OBR1,0,Effector
+AvrB3,B.goodwinii OBR1,0,Effector
+AvrXccB,B.goodwinii OBR1,1,Effector
+DspA/E,B.goodwinii OBR1,1,Effector
+DspF,B.goodwinii OBR1,1,Effector
+Rsc3369,B.goodwinii OBR1,0,Effector
+MxiE,B.goodwinii OBR1,1,Effector
+ExoU,B.goodwinii OBR1,0,Effector
+T2SS,B.goodwinii OBR1,1,T2SS
+T3SS,B.goodwinii OBR1,1,T3SS
+T4SS,B.goodwinii OBR1,2,T4SS
+T6SS,B.goodwinii OBR1,1,T6SS
+Flagella,B.goodwinii OBR1,1,Flagella
+Pili,B.goodwinii OBR1,1,Pili
+Pectate disaccharide-lyase,B.goodwinii FRB171,0,PCWDE
+Pectate lyase,B.goodwinii FRB171,1,PCWDE
+Rhanmogalacturonan endolyase,B.goodwinii FRB171,0,PCWDE
+Pectin lyase,B.goodwinii FRB171,1,PCWDE
+Cellulase,B.goodwinii FRB171,1,PCWDE
+beta-xylanase,B.goodwinii FRB171,0,PCWDE
+Arabinosidase,B.goodwinii FRB171,0,PCWDE
+beta-galactosidase,B.goodwinii FRB171,1,PCWDE
+beta-xylosidase,B.goodwinii FRB171,0,PCWDE
+beta-glucosidase,B.goodwinii FRB171,1,PCWDE
+alpha-galactosidase,B.goodwinii FRB171,1,PCWDE
+Galactanase,B.goodwinii FRB171,0,PCWDE
+Polyglacturonase,B.goodwinii FRB171,0,PCWDE
+Avicelase,B.goodwinii FRB171,0,PCWDE
+alpha-L-arabinosidase,B.goodwinii FRB171,0,PCWDE
+alpha-glucuronidase,B.goodwinii FRB171,0,PCWDE
+Harpin(HrpN),B.goodwinii FRB171,1,Harpin
+Harpin(HrpW),B.goodwinii FRB171,1,Harpin
+Harpin(HrpA2),B.goodwinii FRB171,0,Harpin
+Harpin(HrpZ1),B.goodwinii FRB171,0,Harpin
+Harpin(HrpK1),B.goodwinii FRB171,0,Harpin
+Harpin(PopW),B.goodwinii FRB171,0,Harpin
+Harpin(HrcR),B.goodwinii FRB171,0,Harpin
+Harpin(HopAK1),B.goodwinii FRB171,0,Harpin
+HopAN1,B.goodwinii FRB171,1,Effector
+HopAC1,B.goodwinii FRB171,0,Effector
+HopAG1,B.goodwinii FRB171,0,Effector
+HopAH1,B.goodwinii FRB171,0,Effector
+HopAI1,B.goodwinii FRB171,0,Effector
+HopJ1,B.goodwinii FRB171,0,Effector
+HopAA1,B.goodwinii FRB171,0,Effector
+HopM1,B.goodwinii FRB171,0,Effector
+HopX1,B.goodwinii FRB171,1,Effector
+HopQ1,B.goodwinii FRB171,0,Effector
+HopF2,B.goodwinii FRB171,0,Effector
+HopV1,B.goodwinii FRB171,0,Effector
+HopR1,B.goodwinii FRB171,0,Effector
+HopZ3,B.goodwinii FRB171,0,Effector
+HopH1,B.goodwinii FRB171,0,Effector
+HopL1,B.goodwinii FRB171,1,Effector
+HopAH2,B.goodwinii FRB171,0,Effector
+HopAJ1,B.goodwinii FRB171,0,Effector
+HopPtoC,B.goodwinii FRB171,0,Effector
+HopAV1,B.goodwinii FRB171,0,Effector
+HopAF1,B.goodwinii FRB171,0,Effector
+HopI1,B.goodwinii FRB171,1,Effector
+HopAE1,B.goodwinii FRB171,0,Effector
+HopAJ2,B.goodwinii FRB171,1,Effector
+HopAB1,B.goodwinii FRB171,0,Effector
+HopE1,B.goodwinii FRB171,1,Effector
+HopAW1,B.goodwinii FRB171,1,Effector
+HopP1,B.goodwinii FRB171,0,Effector
+AvrBs2,B.goodwinii FRB171,0,Effector
+AvrA,B.goodwinii FRB171,0,Effector
+AvrRxv,B.goodwinii FRB171,0,Effector
+AvrRpm1,B.goodwinii FRB171,0,Effector
+AvrXccE1,B.goodwinii FRB171,0,Effector
+AvrRpt2,B.goodwinii FRB171,0,Effector
+AvrBs3,B.goodwinii FRB171,0,Effector
+AvrE1,B.goodwinii FRB171,0,Effector
+AvrB3,B.goodwinii FRB171,0,Effector
+AvrXccB,B.goodwinii FRB171,1,Effector
+DspA/E,B.goodwinii FRB171,1,Effector
+DspF,B.goodwinii FRB171,1,Effector
+Rsc3369,B.goodwinii FRB171,0,Effector
+MxiE,B.goodwinii FRB171,1,Effector
+ExoU,B.goodwinii FRB171,0,Effector
+T2SS,B.goodwinii FRB171,1,T2SS
+T3SS,B.goodwinii FRB171,1,T3SS
+T4SS,B.goodwinii FRB171,1,T4SS
+T6SS,B.goodwinii FRB171,1,T6SS
+Flagella,B.goodwinii FRB171,1,Flagella
+Pili,B.goodwinii FRB171,1,Pili
+Pectate disaccharide-lyase,B.goodwinii FRB141,1,PCWDE
+Pectate lyase,B.goodwinii FRB141,1,PCWDE
+Rhanmogalacturonan endolyase,B.goodwinii FRB141,0,PCWDE
+Pectin lyase,B.goodwinii FRB141,1,PCWDE
+Cellulase,B.goodwinii FRB141,1,PCWDE
+beta-xylanase,B.goodwinii FRB141,0,PCWDE
+Arabinosidase,B.goodwinii FRB141,0,PCWDE
+beta-galactosidase,B.goodwinii FRB141,1,PCWDE
+beta-xylosidase,B.goodwinii FRB141,1,PCWDE
+beta-glucosidase,B.goodwinii FRB141,0,PCWDE
+alpha-galactosidase,B.goodwinii FRB141,1,PCWDE
+Galactanase,B.goodwinii FRB141,0,PCWDE
+Polyglacturonase,B.goodwinii FRB141,0,PCWDE
+Avicelase,B.goodwinii FRB141,0,PCWDE
+alpha-L-arabinosidase,B.goodwinii FRB141,0,PCWDE
+alpha-glucuronidase,B.goodwinii FRB141,0,PCWDE
+Harpin(HrpN),B.goodwinii FRB141,1,Harpin
+Harpin(HrpW),B.goodwinii FRB141,1,Harpin
+Harpin(HrpA2),B.goodwinii FRB141,0,Harpin
+Harpin(HrpZ1),B.goodwinii FRB141,0,Harpin
+Harpin(HrpK1),B.goodwinii FRB141,0,Harpin
+Harpin(PopW),B.goodwinii FRB141,0,Harpin
+Harpin(HrcR),B.goodwinii FRB141,0,Harpin
+Harpin(HopAK1),B.goodwinii FRB141,0,Harpin
+HopAN1,B.goodwinii FRB141,1,Effector
+HopAC1,B.goodwinii FRB141,0,Effector
+HopAG1,B.goodwinii FRB141,0,Effector
+HopAH1,B.goodwinii FRB141,0,Effector
+HopAI1,B.goodwinii FRB141,0,Effector
+HopJ1,B.goodwinii FRB141,0,Effector
+HopAA1,B.goodwinii FRB141,0,Effector
+HopM1,B.goodwinii FRB141,0,Effector
+HopX1,B.goodwinii FRB141,1,Effector
+HopQ1,B.goodwinii FRB141,0,Effector
+HopF2,B.goodwinii FRB141,0,Effector
+HopV1,B.goodwinii FRB141,0,Effector
+HopR1,B.goodwinii FRB141,0,Effector
+HopZ3,B.goodwinii FRB141,0,Effector
+HopH1,B.goodwinii FRB141,0,Effector
+HopL1,B.goodwinii FRB141,1,Effector
+HopAH2,B.goodwinii FRB141,0,Effector
+HopAJ1,B.goodwinii FRB141,0,Effector
+HopPtoC,B.goodwinii FRB141,0,Effector
+HopAV1,B.goodwinii FRB141,0,Effector
+HopAF1,B.goodwinii FRB141,0,Effector
+HopI1,B.goodwinii FRB141,1,Effector
+HopAE1,B.goodwinii FRB141,0,Effector
+HopAJ2,B.goodwinii FRB141,1,Effector
+HopAB1,B.goodwinii FRB141,0,Effector
+HopE1,B.goodwinii FRB141,1,Effector
+HopAW1,B.goodwinii FRB141,1,Effector
+HopP1,B.goodwinii FRB141,0,Effector
+AvrBs2,B.goodwinii FRB141,0,Effector
+AvrA,B.goodwinii FRB141,0,Effector
+AvrRxv,B.goodwinii FRB141,0,Effector
+AvrRpm1,B.goodwinii FRB141,0,Effector
+AvrXccE1,B.goodwinii FRB141,0,Effector
+AvrRpt2,B.goodwinii FRB141,0,Effector
+AvrBs3,B.goodwinii FRB141,0,Effector
+AvrE1,B.goodwinii FRB141,0,Effector
+AvrB3,B.goodwinii FRB141,0,Effector
+AvrXccB,B.goodwinii FRB141,1,Effector
+DspA/E,B.goodwinii FRB141,1,Effector
+DspF,B.goodwinii FRB141,1,Effector
+Rsc3369,B.goodwinii FRB141,0,Effector
+MxiE,B.goodwinii FRB141,1,Effector
+ExoU,B.goodwinii FRB141,0,Effector
+T2SS,B.goodwinii FRB141,2,T2SS
+T3SS,B.goodwinii FRB141,1,T3SS
+T4SS,B.goodwinii FRB141,2,T4SS
+T6SS,B.goodwinii FRB141,1,T6SS
+Flagella,B.goodwinii FRB141,1,Flagella
+Pili,B.goodwinii FRB141,1,Pili
+Pectate disaccharide-lyase,B.salicis,0,PCWDE
+Pectate lyase,B.salicis,1,PCWDE
+Rhanmogalacturonan endolyase,B.salicis,0,PCWDE
+Pectin lyase,B.salicis,1,PCWDE
+Cellulase,B.salicis,1,PCWDE
+beta-xylanase,B.salicis,0,PCWDE
+Arabinosidase,B.salicis,0,PCWDE
+beta-galactosidase,B.salicis,0,PCWDE
+beta-xylosidase,B.salicis,0,PCWDE
+beta-glucosidase,B.salicis,1,PCWDE
+alpha-galactosidase,B.salicis,1,PCWDE
+Galactanase,B.salicis,0,PCWDE
+Polyglacturonase,B.salicis,0,PCWDE
+Avicelase,B.salicis,0,PCWDE
+alpha-L-arabinosidase,B.salicis,0,PCWDE
+alpha-glucuronidase,B.salicis,0,PCWDE
+Harpin(HrpN),B.salicis,0,Harpin
+Harpin(HrpW),B.salicis,1,Harpin
+Harpin(HrpA2),B.salicis,0,Harpin
+Harpin(HrpZ1),B.salicis,0,Harpin
+Harpin(HrpK1),B.salicis,0,Harpin
+Harpin(PopW),B.salicis,0,Harpin
+Harpin(HrcR),B.salicis,0,Harpin
+Harpin(HopAK1),B.salicis,0,Harpin
+HopAN1,B.salicis,0,Effector
+HopAC1,B.salicis,0,Effector
+HopAG1,B.salicis,0,Effector
+HopAH1,B.salicis,0,Effector
+HopAI1,B.salicis,0,Effector
+HopJ1,B.salicis,0,Effector
+HopAA1,B.salicis,0,Effector
+HopM1,B.salicis,1,Effector
+HopX1,B.salicis,0,Effector
+HopQ1,B.salicis,0,Effector
+HopF2,B.salicis,1,Effector
+HopV1,B.salicis,1,Effector
+HopR1,B.salicis,1,Effector
+HopZ3,B.salicis,0,Effector
+HopH1,B.salicis,1,Effector
+HopL1,B.salicis,1,Effector
+HopAH2,B.salicis,0,Effector
+HopAJ1,B.salicis,0,Effector
+HopPtoC,B.salicis,0,Effector
+HopAV1,B.salicis,0,Effector
+HopAF1,B.salicis,0,Effector
+HopI1,B.salicis,1,Effector
+HopAE1,B.salicis,0,Effector
+HopAJ2,B.salicis,1,Effector
+HopAB1,B.salicis,0,Effector
+HopE1,B.salicis,0,Effector
+HopAW1,B.salicis,0,Effector
+HopP1,B.salicis,1,Effector
+AvrBs2,B.salicis,0,Effector
+AvrA,B.salicis,0,Effector
+AvrRxv,B.salicis,0,Effector
+AvrRpm1,B.salicis,0,Effector
+AvrXccE1,B.salicis,0,Effector
+AvrRpt2,B.salicis,0,Effector
+AvrBs3,B.salicis,0,Effector
+AvrE1,B.salicis,0,Effector
+AvrB3,B.salicis,0,Effector
+AvrXccB,B.salicis,1,Effector
+DspA/E,B.salicis,1,Effector
+DspF,B.salicis,0,Effector
+Rsc3369,B.salicis,0,Effector
+MxiE,B.salicis,0,Effector
+ExoU,B.salicis,0,Effector
+T2SS,B.salicis,1,T2SS
+T3SS,B.salicis,1,T3SS
+T4SS,B.salicis,2,T4SS
+T6SS,B.salicis,0,T6SS
+Flagella,B.salicis,1,Flagella
+Pili,B.salicis,1,Pili
+Pectate disaccharide-lyase,B.alni,0,PCWDE
+Pectate lyase,B.alni,1,PCWDE
+Rhanmogalacturonan endolyase,B.alni,0,PCWDE
+Pectin lyase,B.alni,1,PCWDE
+Cellulase,B.alni,1,PCWDE
+beta-xylanase,B.alni,0,PCWDE
+Arabinosidase,B.alni,0,PCWDE
+beta-galactosidase,B.alni,0,PCWDE
+beta-xylosidase,B.alni,0,PCWDE
+beta-glucosidase,B.alni,1,PCWDE
+alpha-galactosidase,B.alni,0,PCWDE
+Galactanase,B.alni,0,PCWDE
+Polyglacturonase,B.alni,0,PCWDE
+Avicelase,B.alni,0,PCWDE
+alpha-L-arabinosidase,B.alni,0,PCWDE
+alpha-glucuronidase,B.alni,0,PCWDE
+Harpin(HrpN),B.alni,0,Harpin
+Harpin(HrpW),B.alni,1,Harpin
+Harpin(HrpA2),B.alni,0,Harpin
+Harpin(HrpZ1),B.alni,0,Harpin
+Harpin(HrpK1),B.alni,0,Harpin
+Harpin(PopW),B.alni,0,Harpin
+Harpin(HrcR),B.alni,1,Harpin
+Harpin(HopAK1),B.alni,1,Harpin
+HopAN1,B.alni,0,Effector
+HopAC1,B.alni,0,Effector
+HopAG1,B.alni,0,Effector
+HopAH1,B.alni,0,Effector
+HopAI1,B.alni,0,Effector
+HopJ1,B.alni,0,Effector
+HopAA1,B.alni,0,Effector
+HopM1,B.alni,0,Effector
+HopX1,B.alni,0,Effector
+HopQ1,B.alni,1,Effector
+HopF2,B.alni,1,Effector
+HopV1,B.alni,1,Effector
+HopR1,B.alni,1,Effector
+HopZ3,B.alni,0,Effector
+HopH1,B.alni,1,Effector
+HopL1,B.alni,1,Effector
+HopAH2,B.alni,0,Effector
+HopAJ1,B.alni,0,Effector
+HopPtoC,B.alni,0,Effector
+HopAV1,B.alni,0,Effector
+HopAF1,B.alni,0,Effector
+HopI1,B.alni,1,Effector
+HopAE1,B.alni,0,Effector
+HopAJ2,B.alni,1,Effector
+HopAB1,B.alni,0,Effector
+HopE1,B.alni,1,Effector
+HopAW1,B.alni,0,Effector
+HopP1,B.alni,0,Effector
+AvrBs2,B.alni,0,Effector
+AvrA,B.alni,0,Effector
+AvrRxv,B.alni,0,Effector
+AvrRpm1,B.alni,0,Effector
+AvrXccE1,B.alni,0,Effector
+AvrRpt2,B.alni,0,Effector
+AvrBs3,B.alni,0,Effector
+AvrE1,B.alni,0,Effector
+AvrB3,B.alni,0,Effector
+AvrXccB,B.alni,1,Effector
+DspA/E,B.alni,1,Effector
+DspF,B.alni,0,Effector
+Rsc3369,B.alni,0,Effector
+MxiE,B.alni,1,Effector
+ExoU,B.alni,0,Effector
+T2SS,B.alni,2,T2SS
+T3SS,B.alni,1,T3SS
+T4SS,B.alni,0,T4SS
+T6SS,B.alni,2,T6SS
+Flagella,B.alni,1,Flagella
+Pili,B.alni,0,Pili
+Pectate disaccharide-lyase,P.syringae,0,PCWDE
+Pectate lyase,P.syringae,1,PCWDE
+Rhanmogalacturonan endolyase,P.syringae,0,PCWDE
+Pectin lyase,P.syringae,1,PCWDE
+Cellulase,P.syringae,1,PCWDE
+beta-xylanase,P.syringae,1,PCWDE
+Arabinosidase,P.syringae,0,PCWDE
+beta-galactosidase,P.syringae,0,PCWDE
+beta-xylosidase,P.syringae,0,PCWDE
+beta-glucosidase,P.syringae,1,PCWDE
+alpha-galactosidase,P.syringae,0,PCWDE
+Galactanase,P.syringae,0,PCWDE
+Polyglacturonase,P.syringae,0,PCWDE
+Avicelase,P.syringae,0,PCWDE
+alpha-L-arabinosidase,P.syringae,0,PCWDE
+alpha-glucuronidase,P.syringae,0,PCWDE
+Harpin(HrpN),P.syringae,0,Harpin
+Harpin(HrpW),P.syringae,1,Harpin
+Harpin(HrpA2),P.syringae,1,Harpin
+Harpin(HrpZ1),P.syringae,1,Harpin
+Harpin(HrpK1),P.syringae,1,Harpin
+Harpin(PopW),P.syringae,0,Harpin
+Harpin(HrcR),P.syringae,0,Harpin
+Harpin(HopAK1),P.syringae,1,Harpin
+HopAN1,P.syringae,1,Effector
+HopAC1,P.syringae,1,Effector
+HopAG1,P.syringae,1,Effector
+HopAH1,P.syringae,1,Effector
+HopAI1,P.syringae,1,Effector
+HopJ1,P.syringae,1,Effector
+HopAA1,P.syringae,1,Effector
+HopM1,P.syringae,1,Effector
+HopX1,P.syringae,1,Effector
+HopQ1,P.syringae,0,Effector
+HopF2,P.syringae,0,Effector
+HopV1,P.syringae,0,Effector
+HopR1,P.syringae,0,Effector
+HopZ3,P.syringae,1,Effector
+HopH1,P.syringae,1,Effector
+HopL1,P.syringae,1,Effector
+HopAH2,P.syringae,1,Effector
+HopAJ1,P.syringae,0,Effector
+HopPtoC,P.syringae,0,Effector
+HopAV1,P.syringae,0,Effector
+HopAF1,P.syringae,1,Effector
+HopI1,P.syringae,1,Effector
+HopAE1,P.syringae,1,Effector
+HopAJ2,P.syringae,1,Effector
+HopAB1,P.syringae,1,Effector
+HopE1,P.syringae,0,Effector
+HopAW1,P.syringae,0,Effector
+HopP1,P.syringae,0,Effector
+AvrBs2,P.syringae,1,Effector
+AvrA,P.syringae,0,Effector
+AvrRxv,P.syringae,0,Effector
+AvrRpm1,P.syringae,1,Effector
+AvrXccE1,P.syringae,0,Effector
+AvrRpt2,P.syringae,0,Effector
+AvrBs3,P.syringae,0,Effector
+AvrE1,P.syringae,1,Effector
+AvrB3,P.syringae,1,Effector
+AvrXccB,P.syringae,0,Effector
+DspA/E,P.syringae,0,Effector
+DspF,P.syringae,1,Effector
+Rsc3369,P.syringae,0,Effector
+MxiE,P.syringae,1,Effector
+ExoU,P.syringae,0,Effector
+T2SS,P.syringae,0,T2SS
+T3SS,P.syringae,1,T3SS
+T4SS,P.syringae,2,T4SS
+T6SS,P.syringae,2,T6SS
+Flagella,P.syringae,1,Flagella
+Pili,P.syringae,1,Pili
+Pectate disaccharide-lyase,X.oryzae,0,PCWDE
+Pectate lyase,X.oryzae,1,PCWDE
+Rhanmogalacturonan endolyase,X.oryzae,1,PCWDE
+Pectin lyase,X.oryzae,0,PCWDE
+Cellulase,X.oryzae,1,PCWDE
+beta-xylanase,X.oryzae,1,PCWDE
+Arabinosidase,X.oryzae,1,PCWDE
+beta-galactosidase,X.oryzae,1,PCWDE
+beta-xylosidase,X.oryzae,1,PCWDE
+beta-glucosidase,X.oryzae,0,PCWDE
+alpha-galactosidase,X.oryzae,0,PCWDE
+Galactanase,X.oryzae,1,PCWDE
+Polyglacturonase,X.oryzae,1,PCWDE
+Avicelase,X.oryzae,1,PCWDE
+alpha-L-arabinosidase,X.oryzae,0,PCWDE
+alpha-glucuronidase,X.oryzae,1,PCWDE
+Harpin(HrpN),X.oryzae,0,Harpin
+Harpin(HrpW),X.oryzae,0,Harpin
+Harpin(HrpA2),X.oryzae,0,Harpin
+Harpin(HrpZ1),X.oryzae,0,Harpin
+Harpin(HrpK1),X.oryzae,0,Harpin
+Harpin(PopW),X.oryzae,0,Harpin
+Harpin(HrcR),X.oryzae,0,Harpin
+Harpin(HopAK1),X.oryzae,0,Harpin
+HopAN1,X.oryzae,0,Effector
+HopAC1,X.oryzae,0,Effector
+HopAG1,X.oryzae,0,Effector
+HopAH1,X.oryzae,0,Effector
+HopAI1,X.oryzae,0,Effector
+HopJ1,X.oryzae,0,Effector
+HopAA1,X.oryzae,0,Effector
+HopM1,X.oryzae,0,Effector
+HopX1,X.oryzae,0,Effector
+HopQ1,X.oryzae,1,Effector
+HopF2,X.oryzae,0,Effector
+HopV1,X.oryzae,0,Effector
+HopR1,X.oryzae,0,Effector
+HopZ3,X.oryzae,0,Effector
+HopH1,X.oryzae,0,Effector
+HopL1,X.oryzae,0,Effector
+HopAH2,X.oryzae,0,Effector
+HopAJ1,X.oryzae,0,Effector
+HopPtoC,X.oryzae,0,Effector
+HopAV1,X.oryzae,0,Effector
+HopAF1,X.oryzae,0,Effector
+HopI1,X.oryzae,1,Effector
+HopAE1,X.oryzae,0,Effector
+HopAJ2,X.oryzae,1,Effector
+HopAB1,X.oryzae,0,Effector
+HopE1,X.oryzae,0,Effector
+HopAW1,X.oryzae,0,Effector
+HopP1,X.oryzae,0,Effector
+AvrBs2,X.oryzae,1,Effector
+AvrA,X.oryzae,0,Effector
+AvrRxv,X.oryzae,0,Effector
+AvrRpm1,X.oryzae,0,Effector
+AvrXccE1,X.oryzae,0,Effector
+AvrRpt2,X.oryzae,0,Effector
+AvrBs3,X.oryzae,1,Effector
+AvrE1,X.oryzae,0,Effector
+AvrB3,X.oryzae,0,Effector
+AvrXccB,X.oryzae,0,Effector
+DspA/E,X.oryzae,0,Effector
+DspF,X.oryzae,0,Effector
+Rsc3369,X.oryzae,0,Effector
+MxiE,X.oryzae,1,Effector
+ExoU,X.oryzae,0,Effector
+T2SS,X.oryzae,0,T2SS
+T3SS,X.oryzae,1,T3SS
+T4SS,X.oryzae,0,T4SS
+T6SS,X.oryzae,1,T6SS
+Flagella,X.oryzae,1,Flagella
+Pili,X.oryzae,0,Pili
+Pectate disaccharide-lyase,X.campestris,0,PCWDE
+Pectate lyase,X.campestris,1,PCWDE
+Rhanmogalacturonan endolyase,X.campestris,1,PCWDE
+Pectin lyase,X.campestris,1,PCWDE
+Cellulase,X.campestris,1,PCWDE
+beta-xylanase,X.campestris,1,PCWDE
+Arabinosidase,X.campestris,1,PCWDE
+beta-galactosidase,X.campestris,1,PCWDE
+beta-xylosidase,X.campestris,1,PCWDE
+beta-glucosidase,X.campestris,1,PCWDE
+alpha-galactosidase,X.campestris,0,PCWDE
+Galactanase,X.campestris,1,PCWDE
+Polyglacturonase,X.campestris,1,PCWDE
+Avicelase,X.campestris,1,PCWDE
+alpha-L-arabinosidase,X.campestris,0,PCWDE
+alpha-glucuronidase,X.campestris,1,PCWDE
+Harpin(HrpN),X.campestris,0,Harpin
+Harpin(HrpW),X.campestris,0,Harpin
+Harpin(HrpA2),X.campestris,0,Harpin
+Harpin(HrpZ1),X.campestris,0,Harpin
+Harpin(HrpK1),X.campestris,0,Harpin
+Harpin(PopW),X.campestris,0,Harpin
+Harpin(HrcR),X.campestris,0,Harpin
+Harpin(HopAK1),X.campestris,1,Harpin
+HopAN1,X.campestris,0,Effector
+HopAC1,X.campestris,0,Effector
+HopAG1,X.campestris,0,Effector
+HopAH1,X.campestris,0,Effector
+HopAI1,X.campestris,0,Effector
+HopJ1,X.campestris,0,Effector
+HopAA1,X.campestris,0,Effector
+HopM1,X.campestris,0,Effector
+HopX1,X.campestris,0,Effector
+HopQ1,X.campestris,0,Effector
+HopF2,X.campestris,0,Effector
+HopV1,X.campestris,0,Effector
+HopR1,X.campestris,0,Effector
+HopZ3,X.campestris,0,Effector
+HopH1,X.campestris,0,Effector
+HopL1,X.campestris,0,Effector
+HopAH2,X.campestris,0,Effector
+HopAJ1,X.campestris,0,Effector
+HopPtoC,X.campestris,0,Effector
+HopAV1,X.campestris,0,Effector
+HopAF1,X.campestris,0,Effector
+HopI1,X.campestris,1,Effector
+HopAE1,X.campestris,0,Effector
+HopAJ2,X.campestris,1,Effector
+HopAB1,X.campestris,0,Effector
+HopE1,X.campestris,0,Effector
+HopAW1,X.campestris,0,Effector
+HopP1,X.campestris,0,Effector
+AvrBs2,X.campestris,1,Effector
+AvrA,X.campestris,0,Effector
+AvrRxv,X.campestris,0,Effector
+AvrRpm1,X.campestris,0,Effector
+AvrXccE1,X.campestris,1,Effector
+AvrRpt2,X.campestris,0,Effector
+AvrBs3,X.campestris,0,Effector
+AvrE1,X.campestris,0,Effector
+AvrB3,X.campestris,0,Effector
+AvrXccB,X.campestris,0,Effector
+DspA/E,X.campestris,0,Effector
+DspF,X.campestris,0,Effector
+Rsc3369,X.campestris,0,Effector
+MxiE,X.campestris,1,Effector
+ExoU,X.campestris,1,Effector
+T2SS,X.campestris,0,T2SS
+T3SS,X.campestris,1,T3SS
+T4SS,X.campestris,1,T4SS
+T6SS,X.campestris,2,T6SS
+Flagella,X.campestris,1,Flagella
+Pili,X.campestris,1,Pili
+Pectate disaccharide-lyase,X.axonopodis,0,PCWDE
+Pectate lyase,X.axonopodis,1,PCWDE
+Rhanmogalacturonan endolyase,X.axonopodis,1,PCWDE
+Pectin lyase,X.axonopodis,1,PCWDE
+Cellulase,X.axonopodis,1,PCWDE
+beta-xylanase,X.axonopodis,0,PCWDE
+Arabinosidase,X.axonopodis,1,PCWDE
+beta-galactosidase,X.axonopodis,0,PCWDE
+beta-xylosidase,X.axonopodis,0,PCWDE
+beta-glucosidase,X.axonopodis,0,PCWDE
+alpha-galactosidase,X.axonopodis,0,PCWDE
+Galactanase,X.axonopodis,0,PCWDE
+Polyglacturonase,X.axonopodis,1,PCWDE
+Avicelase,X.axonopodis,0,PCWDE
+alpha-L-arabinosidase,X.axonopodis,0,PCWDE
+alpha-glucuronidase,X.axonopodis,0,PCWDE
+Harpin(HrpN),X.axonopodis,0,Harpin
+Harpin(HrpW),X.axonopodis,0,Harpin
+Harpin(HrpA2),X.axonopodis,0,Harpin
+Harpin(HrpZ1),X.axonopodis,0,Harpin
+Harpin(HrpK1),X.axonopodis,0,Harpin
+Harpin(PopW),X.axonopodis,0,Harpin
+Harpin(HrcR),X.axonopodis,0,Harpin
+Harpin(HopAK1),X.axonopodis,1,Harpin
+HopAN1,X.axonopodis,0,Effector
+HopAC1,X.axonopodis,0,Effector
+HopAG1,X.axonopodis,0,Effector
+HopAH1,X.axonopodis,0,Effector
+HopAI1,X.axonopodis,0,Effector
+HopJ1,X.axonopodis,0,Effector
+HopAA1,X.axonopodis,0,Effector
+HopM1,X.axonopodis,0,Effector
+HopX1,X.axonopodis,0,Effector
+HopQ1,X.axonopodis,1,Effector
+HopF2,X.axonopodis,0,Effector
+HopV1,X.axonopodis,0,Effector
+HopR1,X.axonopodis,0,Effector
+HopZ3,X.axonopodis,0,Effector
+HopH1,X.axonopodis,0,Effector
+HopL1,X.axonopodis,0,Effector
+HopAH2,X.axonopodis,0,Effector
+HopAJ1,X.axonopodis,1,Effector
+HopPtoC,X.axonopodis,0,Effector
+HopAV1,X.axonopodis,0,Effector
+HopAF1,X.axonopodis,0,Effector
+HopI1,X.axonopodis,1,Effector
+HopAE1,X.axonopodis,0,Effector
+HopAJ2,X.axonopodis,1,Effector
+HopAB1,X.axonopodis,0,Effector
+HopE1,X.axonopodis,0,Effector
+HopAW1,X.axonopodis,0,Effector
+HopP1,X.axonopodis,0,Effector
+AvrBs2,X.axonopodis,1,Effector
+AvrA,X.axonopodis,0,Effector
+AvrRxv,X.axonopodis,0,Effector
+AvrRpm1,X.axonopodis,0,Effector
+AvrXccE1,X.axonopodis,1,Effector
+AvrRpt2,X.axonopodis,0,Effector
+AvrBs3,X.axonopodis,1,Effector
+AvrE1,X.axonopodis,0,Effector
+AvrB3,X.axonopodis,0,Effector
+AvrXccB,X.axonopodis,0,Effector
+DspA/E,X.axonopodis,0,Effector
+DspF,X.axonopodis,0,Effector
+Rsc3369,X.axonopodis,1,Effector
+MxiE,X.axonopodis,0,Effector
+ExoU,X.axonopodis,1,Effector
+T2SS,X.axonopodis,0,T2SS
+T3SS,X.axonopodis,1,T3SS
+T4SS,X.axonopodis,1,T4SS
+T6SS,X.axonopodis,2,T6SS
+Flagella,X.axonopodis,1,Flagella
+Pili,X.axonopodis,1,Pili
+Pectate disaccharide-lyase,B.licheniformis,0,PCWDE
+Pectate lyase,B.licheniformis,1,PCWDE
+Rhanmogalacturonan endolyase,B.licheniformis,1,PCWDE
+Pectin lyase,B.licheniformis,1,PCWDE
+Cellulase,B.licheniformis,1,PCWDE
+beta-xylanase,B.licheniformis,0,PCWDE
+Arabinosidase,B.licheniformis,1,PCWDE
+beta-galactosidase,B.licheniformis,1,PCWDE
+beta-xylosidase,B.licheniformis,1,PCWDE
+beta-glucosidase,B.licheniformis,1,PCWDE
+alpha-galactosidase,B.licheniformis,1,PCWDE
+Galactanase,B.licheniformis,1,PCWDE
+Polyglacturonase,B.licheniformis,0,PCWDE
+Avicelase,B.licheniformis,0,PCWDE
+alpha-L-arabinosidase,B.licheniformis,1,PCWDE
+alpha-glucuronidase,B.licheniformis,0,PCWDE
+Harpin(HrpN),B.licheniformis,0,Harpin
+Harpin(HrpW),B.licheniformis,1,Harpin
+Harpin(HrpA2),B.licheniformis,0,Harpin
+Harpin(HrpZ1),B.licheniformis,0,Harpin
+Harpin(HrpK1),B.licheniformis,0,Harpin
+Harpin(PopW),B.licheniformis,0,Harpin
+Harpin(HrcR),B.licheniformis,0,Harpin
+Harpin(HopAK1),B.licheniformis,1,Harpin
+HopAN1,B.licheniformis,1,Effector
+HopAC1,B.licheniformis,0,Effector
+HopAG1,B.licheniformis,0,Effector
+HopAH1,B.licheniformis,0,Effector
+HopAI1,B.licheniformis,0,Effector
+HopJ1,B.licheniformis,0,Effector
+HopAA1,B.licheniformis,0,Effector
+HopM1,B.licheniformis,0,Effector
+HopX1,B.licheniformis,0,Effector
+HopQ1,B.licheniformis,0,Effector
+HopF2,B.licheniformis,0,Effector
+HopV1,B.licheniformis,0,Effector
+HopR1,B.licheniformis,0,Effector
+HopZ3,B.licheniformis,0,Effector
+HopH1,B.licheniformis,0,Effector
+HopL1,B.licheniformis,0,Effector
+HopAH2,B.licheniformis,0,Effector
+HopAJ1,B.licheniformis,0,Effector
+HopPtoC,B.licheniformis,0,Effector
+HopAV1,B.licheniformis,0,Effector
+HopAF1,B.licheniformis,0,Effector
+HopI1,B.licheniformis,1,Effector
+HopAE1,B.licheniformis,0,Effector
+HopAJ2,B.licheniformis,0,Effector
+HopAB1,B.licheniformis,0,Effector
+HopE1,B.licheniformis,0,Effector
+HopAW1,B.licheniformis,0,Effector
+HopP1,B.licheniformis,0,Effector
+AvrBs2,B.licheniformis,1,Effector
+AvrA,B.licheniformis,0,Effector
+AvrRxv,B.licheniformis,0,Effector
+AvrRpm1,B.licheniformis,0,Effector
+AvrXccE1,B.licheniformis,0,Effector
+AvrRpt2,B.licheniformis,0,Effector
+AvrBs3,B.licheniformis,0,Effector
+AvrE1,B.licheniformis,0,Effector
+AvrB3,B.licheniformis,0,Effector
+AvrXccB,B.licheniformis,0,Effector
+DspA/E,B.licheniformis,0,Effector
+DspF,B.licheniformis,0,Effector
+Rsc3369,B.licheniformis,0,Effector
+MxiE,B.licheniformis,0,Effector
+ExoU,B.licheniformis,0,Effector
+T2SS,B.licheniformis,0,T2SS
+T3SS,B.licheniformis,0,T3SS
+T4SS,B.licheniformis,0,T4SS
+T6SS,B.licheniformis,0,T6SS
+Flagella,B.licheniformis,1,Flagella
+Pili,B.licheniformis,1,Pili
