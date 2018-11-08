@@ -1,0 +1,1404 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="int" for="edge" id="d5" />
+  <key attr.name="protein_count" attr.type="int" for="node" id="d4" />
+  <key attr.name="TAXON" attr.type="string" for="node" id="d3" />
+  <key attr.name="label1" attr.type="string" for="node" id="d2" />
+  <key attr.name="IDX" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Graph</data>
+    <node id="GQ13">
+      <data key="d1">12</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">GQ13</data>
+      <data key="d4">97</data>
+    </node>
+    <node id="BA">
+      <data key="d1">2</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">BA</data>
+      <data key="d4">77</data>
+    </node>
+    <node id="BL">
+      <data key="d1">6</data>
+      <data key="d2">unknown</data>
+      <data key="d3">BL</data>
+      <data key="d4">65</data>
+    </node>
+    <node id="HS">
+      <data key="d1">15</data>
+      <data key="d2">endophyte</data>
+      <data key="d3">HS</data>
+      <data key="d4">91</data>
+    </node>
+    <node id="DD">
+      <data key="d1">8</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">DD</data>
+      <data key="d4">89</data>
+    </node>
+    <node id="GQ18">
+      <data key="d1">13</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">GQ18</data>
+      <data key="d4">101</data>
+    </node>
+    <node id="BS">
+      <data key="d1">7</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">BS</data>
+      <data key="d4">76</data>
+    </node>
+    <node id="Lqb">
+      <data key="d1">16</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">Lqb</data>
+      <data key="d4">69</data>
+    </node>
+    <node id="PS">
+      <data key="d1">19</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">PS</data>
+      <data key="d4">88</data>
+    </node>
+    <node id="RS">
+      <data key="d1">22</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">RS</data>
+      <data key="d4">60</data>
+    </node>
+    <node id="BGo">
+      <data key="d1">5</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">BGo</data>
+      <data key="d4">98</data>
+    </node>
+    <node id="PC">
+      <data key="d1">18</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">PC</data>
+      <data key="d4">84</data>
+    </node>
+    <node id="XC">
+      <data key="d1">26</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">XC</data>
+      <data key="d4">73</data>
+    </node>
+    <node id="XO">
+      <data key="d1">28</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">XO</data>
+      <data key="d4">75</data>
+    </node>
+    <node id="XF">
+      <data key="d1">27</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">XF</data>
+      <data key="d4">37</data>
+    </node>
+    <node id="GQ24">
+      <data key="d1">14</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">GQ24</data>
+      <data key="d4">59</data>
+    </node>
+    <node id="XA">
+      <data key="d1">25</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">XA</data>
+      <data key="d4">74</data>
+    </node>
+    <node id="EA">
+      <data key="d1">9</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">EA</data>
+      <data key="d4">68</data>
+    </node>
+    <node id="EB">
+      <data key="d1">10</data>
+      <data key="d2">endophyte</data>
+      <data key="d3">EB</data>
+      <data key="d4">85</data>
+    </node>
+    <node id="AT">
+      <data key="d1">0</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">AT</data>
+      <data key="d4">74</data>
+    </node>
+    <node id="AZ">
+      <data key="d1">1</data>
+      <data key="d2">endophyte</data>
+      <data key="d3">AZ</data>
+      <data key="d4">95</data>
+    </node>
+    <node id="BG59">
+      <data key="d1">3</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">BG59</data>
+      <data key="d4">97</data>
+    </node>
+    <node id="MM">
+      <data key="d1">17</data>
+      <data key="d2">endophyte</data>
+      <data key="d3">MM</data>
+      <data key="d4">121</data>
+    </node>
+    <node id="BG2">
+      <data key="d1">4</data>
+      <data key="d2">pathogen</data>
+      <data key="d3">BG2</data>
+      <data key="d4">92</data>
+    </node>
+    <node id="Gd">
+      <data key="d1">11</data>
+      <data key="d2">endophyte</data>
+      <data key="d3">Gd</data>
+      <data key="d4">97</data>
+    </node>
+    <node id="RVAR">
+      <data key="d1">23</data>
+      <data key="d2">unknown</data>
+      <data key="d3">RVAR</data>
+      <data key="d4">98</data>
+    </node>
+    <node id="RLT">
+      <data key="d1">20</data>
+      <data key="d2">endophyte</data>
+      <data key="d3">RLT</data>
+      <data key="d4">84</data>
+    </node>
+    <node id="RLV">
+      <data key="d1">21</data>
+      <data key="d2">endophyte</data>
+      <data key="d3">RLV</data>
+      <data key="d4">86</data>
+    </node>
+    <node id="RVIC">
+      <data key="d1">24</data>
+      <data key="d2">unknown</data>
+      <data key="d3">RVIC</data>
+      <data key="d4">98</data>
+    </node>
+    <edge source="GQ13" target="BA">
+      <data key="d5">58</data>
+    </edge>
+    <edge source="GQ13" target="BL">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="GQ13" target="HS">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="GQ13" target="DD">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="GQ13" target="GQ18">
+      <data key="d5">75</data>
+    </edge>
+    <edge source="GQ13" target="BS">
+      <data key="d5">56</data>
+    </edge>
+    <edge source="GQ13" target="Lqb">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="GQ13" target="PS">
+      <data key="d5">42</data>
+    </edge>
+    <edge source="GQ13" target="RS">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="GQ13" target="BGo">
+      <data key="d5">63</data>
+    </edge>
+    <edge source="GQ13" target="PC">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="GQ13" target="XC">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="GQ13" target="XO">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="GQ13" target="EA">
+      <data key="d5">52</data>
+    </edge>
+    <edge source="GQ13" target="GQ24">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="GQ13" target="XA">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="GQ13" target="XF">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="GQ13" target="EB">
+      <data key="d5">58</data>
+    </edge>
+    <edge source="GQ13" target="AT">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="GQ13" target="AZ">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="GQ13" target="BG59">
+      <data key="d5">63</data>
+    </edge>
+    <edge source="GQ13" target="MM">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="GQ13" target="BG2">
+      <data key="d5">62</data>
+    </edge>
+    <edge source="GQ13" target="Gd">
+      <data key="d5">79</data>
+    </edge>
+    <edge source="GQ13" target="RVAR">
+      <data key="d5">58</data>
+    </edge>
+    <edge source="GQ13" target="RLT">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="GQ13" target="RLV">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="GQ13" target="RVIC">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="BA" target="BL">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="BA" target="HS">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="BA" target="DD">
+      <data key="d5">56</data>
+    </edge>
+    <edge source="BA" target="GQ18">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="BA" target="BS">
+      <data key="d5">58</data>
+    </edge>
+    <edge source="BA" target="Lqb">
+      <data key="d5">54</data>
+    </edge>
+    <edge source="BA" target="PS">
+      <data key="d5">42</data>
+    </edge>
+    <edge source="BA" target="RS">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="BA" target="BGo">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="BA" target="PC">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="BA" target="XC">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="BA" target="XO">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="BA" target="XF">
+      <data key="d5">26</data>
+    </edge>
+    <edge source="BA" target="GQ24">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BA" target="XA">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="BA" target="EA">
+      <data key="d5">47</data>
+    </edge>
+    <edge source="BA" target="EB">
+      <data key="d5">51</data>
+    </edge>
+    <edge source="BA" target="AT">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="BA" target="AZ">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BA" target="BG59">
+      <data key="d5">58</data>
+    </edge>
+    <edge source="BA" target="MM">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="BA" target="BG2">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="BA" target="Gd">
+      <data key="d5">58</data>
+    </edge>
+    <edge source="BA" target="RVAR">
+      <data key="d5">54</data>
+    </edge>
+    <edge source="BA" target="RLT">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="BA" target="RLV">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BA" target="RVIC">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="BL" target="HS">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="BL" target="DD">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="BL" target="GQ18">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="BL" target="BS">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="BL" target="Lqb">
+      <data key="d5">24</data>
+    </edge>
+    <edge source="BL" target="PS">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="BL" target="RS">
+      <data key="d5">24</data>
+    </edge>
+    <edge source="BL" target="BGo">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BL" target="PC">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="BL" target="XC">
+      <data key="d5">26</data>
+    </edge>
+    <edge source="BL" target="XO">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="BL" target="XF">
+      <data key="d5">17</data>
+    </edge>
+    <edge source="BL" target="GQ24">
+      <data key="d5">25</data>
+    </edge>
+    <edge source="BL" target="XA">
+      <data key="d5">26</data>
+    </edge>
+    <edge source="BL" target="EA">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="BL" target="EB">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BL" target="AT">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="BL" target="AZ">
+      <data key="d5">22</data>
+    </edge>
+    <edge source="BL" target="BG59">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="BL" target="MM">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="BL" target="BG2">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BL" target="Gd">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="BL" target="RVAR">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="BL" target="RLT">
+      <data key="d5">26</data>
+    </edge>
+    <edge source="BL" target="RLV">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="BL" target="RVIC">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="HS" target="DD">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="HS" target="GQ18">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="HS" target="BS">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="HS" target="Lqb">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="HS" target="PS">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="HS" target="RS">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="HS" target="BGo">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="HS" target="PC">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="HS" target="XF">
+      <data key="d5">22</data>
+    </edge>
+    <edge source="HS" target="XO">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="HS" target="XC">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="HS" target="GQ24">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="HS" target="XA">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="HS" target="EA">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="HS" target="EB">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="HS" target="AT">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="HS" target="AZ">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="HS" target="BG59">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="HS" target="MM">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="HS" target="BG2">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="HS" target="Gd">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="HS" target="RVAR">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="HS" target="RLT">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="HS" target="RLV">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="HS" target="RVIC">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="DD" target="GQ18">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="DD" target="BS">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="DD" target="Lqb">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="DD" target="PS">
+      <data key="d5">44</data>
+    </edge>
+    <edge source="DD" target="RS">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="DD" target="BGo">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="DD" target="PC">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="DD" target="XF">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="DD" target="XO">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="DD" target="XC">
+      <data key="d5">41</data>
+    </edge>
+    <edge source="DD" target="GQ24">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="DD" target="XA">
+      <data key="d5">40</data>
+    </edge>
+    <edge source="DD" target="EA">
+      <data key="d5">47</data>
+    </edge>
+    <edge source="DD" target="EB">
+      <data key="d5">56</data>
+    </edge>
+    <edge source="DD" target="AT">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="DD" target="AZ">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="DD" target="BG59">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="DD" target="MM">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="DD" target="BG2">
+      <data key="d5">56</data>
+    </edge>
+    <edge source="DD" target="Gd">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="DD" target="RVAR">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="DD" target="RLT">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="DD" target="RLV">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="DD" target="RVIC">
+      <data key="d5">56</data>
+    </edge>
+    <edge source="GQ18" target="BS">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="GQ18" target="Lqb">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="GQ18" target="PS">
+      <data key="d5">44</data>
+    </edge>
+    <edge source="GQ18" target="RS">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="GQ18" target="BGo">
+      <data key="d5">61</data>
+    </edge>
+    <edge source="GQ18" target="PC">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="GQ18" target="XF">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="GQ18" target="XO">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="GQ18" target="XC">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="GQ18" target="GQ24">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="GQ18" target="XA">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="GQ18" target="EA">
+      <data key="d5">51</data>
+    </edge>
+    <edge source="GQ18" target="EB">
+      <data key="d5">61</data>
+    </edge>
+    <edge source="GQ18" target="AT">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="GQ18" target="AZ">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="GQ18" target="BG59">
+      <data key="d5">61</data>
+    </edge>
+    <edge source="GQ18" target="MM">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="GQ18" target="BG2">
+      <data key="d5">61</data>
+    </edge>
+    <edge source="GQ18" target="Gd">
+      <data key="d5">74</data>
+    </edge>
+    <edge source="GQ18" target="RVAR">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="GQ18" target="RLT">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="GQ18" target="RLV">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="GQ18" target="RVIC">
+      <data key="d5">61</data>
+    </edge>
+    <edge source="BS" target="Lqb">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="BS" target="PS">
+      <data key="d5">42</data>
+    </edge>
+    <edge source="BS" target="RS">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="BS" target="BGo">
+      <data key="d5">60</data>
+    </edge>
+    <edge source="BS" target="PC">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="BS" target="XC">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="BS" target="XO">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="BS" target="EA">
+      <data key="d5">47</data>
+    </edge>
+    <edge source="BS" target="GQ24">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="BS" target="XA">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="BS" target="XF">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="BS" target="EB">
+      <data key="d5">52</data>
+    </edge>
+    <edge source="BS" target="AT">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="BS" target="AZ">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="BS" target="BG59">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="BS" target="MM">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="BS" target="BG2">
+      <data key="d5">59</data>
+    </edge>
+    <edge source="BS" target="Gd">
+      <data key="d5">56</data>
+    </edge>
+    <edge source="BS" target="RVAR">
+      <data key="d5">52</data>
+    </edge>
+    <edge source="BS" target="RLT">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="BS" target="RLV">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="BS" target="RVIC">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="Lqb" target="PS">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="Lqb" target="RS">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="Lqb" target="BGo">
+      <data key="d5">54</data>
+    </edge>
+    <edge source="Lqb" target="PC">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="Lqb" target="XC">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="Lqb" target="XO">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="Lqb" target="XF">
+      <data key="d5">26</data>
+    </edge>
+    <edge source="Lqb" target="GQ24">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="Lqb" target="XA">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="Lqb" target="EA">
+      <data key="d5">45</data>
+    </edge>
+    <edge source="Lqb" target="EB">
+      <data key="d5">49</data>
+    </edge>
+    <edge source="Lqb" target="AT">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="Lqb" target="AZ">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="Lqb" target="BG59">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="Lqb" target="MM">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="Lqb" target="BG2">
+      <data key="d5">54</data>
+    </edge>
+    <edge source="Lqb" target="Gd">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="Lqb" target="RVAR">
+      <data key="d5">52</data>
+    </edge>
+    <edge source="Lqb" target="RLT">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="Lqb" target="RLV">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="Lqb" target="RVIC">
+      <data key="d5">52</data>
+    </edge>
+    <edge source="PS" target="EA">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="PS" target="RS">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="PS" target="BGo">
+      <data key="d5">42</data>
+    </edge>
+    <edge source="PS" target="PC">
+      <data key="d5">42</data>
+    </edge>
+    <edge source="PS" target="XO">
+      <data key="d5">43</data>
+    </edge>
+    <edge source="PS" target="XC">
+      <data key="d5">42</data>
+    </edge>
+    <edge source="PS" target="GQ24">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="PS" target="XA">
+      <data key="d5">43</data>
+    </edge>
+    <edge source="PS" target="XF">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="PS" target="EB">
+      <data key="d5">44</data>
+    </edge>
+    <edge source="PS" target="AT">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="PS" target="AZ">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="PS" target="BG59">
+      <data key="d5">41</data>
+    </edge>
+    <edge source="PS" target="MM">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="PS" target="BG2">
+      <data key="d5">43</data>
+    </edge>
+    <edge source="PS" target="Gd">
+      <data key="d5">42</data>
+    </edge>
+    <edge source="PS" target="RVAR">
+      <data key="d5">47</data>
+    </edge>
+    <edge source="PS" target="RLT">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="PS" target="RLV">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="PS" target="RVIC">
+      <data key="d5">44</data>
+    </edge>
+    <edge source="RS" target="BGo">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="RS" target="PC">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="RS" target="XC">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="RS" target="XO">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="RS" target="EA">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="RS" target="GQ24">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="RS" target="XA">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="RS" target="XF">
+      <data key="d5">23</data>
+    </edge>
+    <edge source="RS" target="EB">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="RS" target="AT">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="RS" target="AZ">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="RS" target="BG59">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="RS" target="MM">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="RS" target="BG2">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="RS" target="Gd">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="RS" target="RVAR">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="RS" target="RLT">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="RS" target="RLV">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="RS" target="RVIC">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="BGo" target="PC">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="BGo" target="XF">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="BGo" target="XO">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="BGo" target="XC">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="BGo" target="GQ24">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BGo" target="XA">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="BGo" target="EA">
+      <data key="d5">48</data>
+    </edge>
+    <edge source="BGo" target="EB">
+      <data key="d5">52</data>
+    </edge>
+    <edge source="BGo" target="AT">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="BGo" target="AZ">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="BGo" target="BG59">
+      <data key="d5">78</data>
+    </edge>
+    <edge source="BGo" target="MM">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="BGo" target="BG2">
+      <data key="d5">75</data>
+    </edge>
+    <edge source="BGo" target="Gd">
+      <data key="d5">63</data>
+    </edge>
+    <edge source="BGo" target="RVAR">
+      <data key="d5">54</data>
+    </edge>
+    <edge source="BGo" target="RLT">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BGo" target="RLV">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="BGo" target="RVIC">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="PC" target="XF">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="PC" target="XO">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="PC" target="XC">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="PC" target="GQ24">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="PC" target="XA">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="PC" target="EA">
+      <data key="d5">47</data>
+    </edge>
+    <edge source="PC" target="EB">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="PC" target="AT">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="PC" target="AZ">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="PC" target="BG59">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="PC" target="MM">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="PC" target="BG2">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="PC" target="Gd">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="PC" target="RVAR">
+      <data key="d5">56</data>
+    </edge>
+    <edge source="PC" target="RLT">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="PC" target="RLV">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="PC" target="RVIC">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="XC" target="XO">
+      <data key="d5">49</data>
+    </edge>
+    <edge source="XC" target="XF">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="XC" target="GQ24">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="XC" target="XA">
+      <data key="d5">54</data>
+    </edge>
+    <edge source="XC" target="EA">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="XC" target="EB">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="XC" target="AT">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="XC" target="AZ">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="XC" target="BG59">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="XC" target="MM">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="XC" target="BG2">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="XC" target="Gd">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="XC" target="RVAR">
+      <data key="d5">40</data>
+    </edge>
+    <edge source="XC" target="RLT">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="XC" target="RLV">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="XC" target="RVIC">
+      <data key="d5">40</data>
+    </edge>
+    <edge source="XO" target="XF">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="XO" target="GQ24">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="XO" target="XA">
+      <data key="d5">51</data>
+    </edge>
+    <edge source="XO" target="EA">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="XO" target="EB">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="XO" target="AT">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="XO" target="AZ">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="XO" target="BG59">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="XO" target="MM">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="XO" target="BG2">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="XO" target="Gd">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="XO" target="RVAR">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="XO" target="RLT">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="XO" target="RLV">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="XO" target="RVIC">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="XF" target="GQ24">
+      <data key="d5">24</data>
+    </edge>
+    <edge source="XF" target="XA">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="XF" target="EA">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="XF" target="EB">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="XF" target="AT">
+      <data key="d5">24</data>
+    </edge>
+    <edge source="XF" target="AZ">
+      <data key="d5">23</data>
+    </edge>
+    <edge source="XF" target="BG59">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="XF" target="MM">
+      <data key="d5">25</data>
+    </edge>
+    <edge source="XF" target="BG2">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="XF" target="Gd">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="XF" target="RVAR">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="XF" target="RLT">
+      <data key="d5">25</data>
+    </edge>
+    <edge source="XF" target="RLV">
+      <data key="d5">26</data>
+    </edge>
+    <edge source="XF" target="RVIC">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="GQ24" target="EA">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="GQ24" target="XA">
+      <data key="d5">27</data>
+    </edge>
+    <edge source="GQ24" target="EB">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="GQ24" target="AT">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="GQ24" target="AZ">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="GQ24" target="BG59">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="GQ24" target="MM">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="GQ24" target="BG2">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="GQ24" target="Gd">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="GQ24" target="RVAR">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="GQ24" target="RLT">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="GQ24" target="RLV">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="GQ24" target="RVIC">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="XA" target="EA">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="XA" target="EB">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="XA" target="AT">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="XA" target="AZ">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="XA" target="BG59">
+      <data key="d5">38</data>
+    </edge>
+    <edge source="XA" target="MM">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="XA" target="BG2">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="XA" target="Gd">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="XA" target="RVAR">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="XA" target="RLT">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="XA" target="RLV">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="XA" target="RVIC">
+      <data key="d5">39</data>
+    </edge>
+    <edge source="EA" target="EB">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="EA" target="AT">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="EA" target="AZ">
+      <data key="d5">30</data>
+    </edge>
+    <edge source="EA" target="BG59">
+      <data key="d5">48</data>
+    </edge>
+    <edge source="EA" target="MM">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="EA" target="BG2">
+      <data key="d5">49</data>
+    </edge>
+    <edge source="EA" target="Gd">
+      <data key="d5">51</data>
+    </edge>
+    <edge source="EA" target="RVAR">
+      <data key="d5">52</data>
+    </edge>
+    <edge source="EA" target="RLT">
+      <data key="d5">28</data>
+    </edge>
+    <edge source="EA" target="RLV">
+      <data key="d5">29</data>
+    </edge>
+    <edge source="EA" target="RVIC">
+      <data key="d5">52</data>
+    </edge>
+    <edge source="EB" target="AT">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="EB" target="AZ">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="EB" target="BG59">
+      <data key="d5">51</data>
+    </edge>
+    <edge source="EB" target="MM">
+      <data key="d5">36</data>
+    </edge>
+    <edge source="EB" target="BG2">
+      <data key="d5">53</data>
+    </edge>
+    <edge source="EB" target="Gd">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="EB" target="RVAR">
+      <data key="d5">62</data>
+    </edge>
+    <edge source="EB" target="RLT">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="EB" target="RLV">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="EB" target="RVIC">
+      <data key="d5">61</data>
+    </edge>
+    <edge source="AT" target="AZ">
+      <data key="d5">41</data>
+    </edge>
+    <edge source="AT" target="BG59">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="AT" target="MM">
+      <data key="d5">45</data>
+    </edge>
+    <edge source="AT" target="BG2">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="AT" target="Gd">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="AT" target="RVAR">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="AT" target="RLT">
+      <data key="d5">48</data>
+    </edge>
+    <edge source="AT" target="RLV">
+      <data key="d5">49</data>
+    </edge>
+    <edge source="AT" target="RVIC">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="AZ" target="BG59">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="AZ" target="MM">
+      <data key="d5">40</data>
+    </edge>
+    <edge source="AZ" target="BG2">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="AZ" target="Gd">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="AZ" target="RVAR">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="AZ" target="RLT">
+      <data key="d5">40</data>
+    </edge>
+    <edge source="AZ" target="RLV">
+      <data key="d5">40</data>
+    </edge>
+    <edge source="AZ" target="RVIC">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="BG59" target="MM">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="BG59" target="BG2">
+      <data key="d5">74</data>
+    </edge>
+    <edge source="BG59" target="Gd">
+      <data key="d5">63</data>
+    </edge>
+    <edge source="BG59" target="RVAR">
+      <data key="d5">54</data>
+    </edge>
+    <edge source="BG59" target="RLT">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BG59" target="RLV">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BG59" target="RVIC">
+      <data key="d5">54</data>
+    </edge>
+    <edge source="MM" target="BG2">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="MM" target="Gd">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="MM" target="RVAR">
+      <data key="d5">37</data>
+    </edge>
+    <edge source="MM" target="RLT">
+      <data key="d5">44</data>
+    </edge>
+    <edge source="MM" target="RLV">
+      <data key="d5">47</data>
+    </edge>
+    <edge source="MM" target="RVIC">
+      <data key="d5">35</data>
+    </edge>
+    <edge source="BG2" target="Gd">
+      <data key="d5">61</data>
+    </edge>
+    <edge source="BG2" target="RVAR">
+      <data key="d5">55</data>
+    </edge>
+    <edge source="BG2" target="RLT">
+      <data key="d5">31</data>
+    </edge>
+    <edge source="BG2" target="RLV">
+      <data key="d5">33</data>
+    </edge>
+    <edge source="BG2" target="RVIC">
+      <data key="d5">56</data>
+    </edge>
+    <edge source="Gd" target="RVAR">
+      <data key="d5">57</data>
+    </edge>
+    <edge source="Gd" target="RLT">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="Gd" target="RLV">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="Gd" target="RVIC">
+      <data key="d5">58</data>
+    </edge>
+    <edge source="RVAR" target="RLT">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="RVAR" target="RLV">
+      <data key="d5">34</data>
+    </edge>
+    <edge source="RVAR" target="RVIC">
+      <data key="d5">73</data>
+    </edge>
+    <edge source="RLT" target="RLV">
+      <data key="d5">58</data>
+    </edge>
+    <edge source="RLT" target="RVIC">
+      <data key="d5">32</data>
+    </edge>
+    <edge source="RLV" target="RVIC">
+      <data key="d5">33</data>
+    </edge>
+  </graph>
+</graphml>
